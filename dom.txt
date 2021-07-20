@@ -1,0 +1,3722 @@
+
+
+
+
+<!-- 渲染左侧目录树的方法定义 -->
+
+<!-- 渲染左侧目录树的方法定义 -->
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<link rel="dns-prefetch" href="//gtms01.alicdn.com">
+<link rel="dns-prefetch" href="//gtms02.alicdn.com">
+<link rel="dns-prefetch" href="//gtms03.alicdn.com">
+<meta name="data-spm" content="a2c4g" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="renderer" content="webkit">
+<meta name="nav-config" content="topbar=channel,footer=default">
+<meta name="help-trace-id" content="40b93c44-9ea4-4186-b73d-07f759e33b34" />
+<meta name="help-env-notation" content="" />
+<!-- 基础资源 -->
+<link rel="stylesheet" href="https://g.alicdn.com/aliyun/nav-loader/css/index.css">
+<script src="https://g.alicdn.com/aliyun/nav-loader/js/index.js"></script>
+<title>支持标签API的资源类型 - 资源管理 - 阿里云</title>
+<link rel="icon" href="https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" type="image/x-icon">
+<meta name="keywords" content="资源管理,API参考,标签,阿里云">
+<meta name="description" content="">
+<link rel="canonical" href="https://help.aliyun.com/document_detail/172061.html" />
+<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="applicable-device" content="pc,mobile">
+<script src="//www.aliyun.com/resource/_assets/top"></script>
+<link rel="stylesheet" href="//g.alicdn.com/aliyun/help-doc/0.0.84/css/detail.css">
+ <link rel="stylesheet" href="//g.alicdn.com/aliyun-icms/assets/icms-main/styles/icms-help-docs-content.css">
+<link rel="stylesheet" href="//g.alicdn.com/aliyun/help-doc/0.0.84/css/customFeedback.css">
+<link rel="stylesheet" href="//static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/static/tree-table/doc-tree-table.css">
+<script defer type="text/javascript" src="//g.alicdn.com/qoe/recording/agent.js"></script>
+<meta name="aplus-pvhash" content="1" />
+<meta name="aplus-auto-exp" content='[{
+"logkey":"/help.document_detail.doc_conbody_auto_exp",
+"tag":"section",
+"cssSelector":".section",
+"props:["class","id"],
+"pkgSize":9,
+"method":"POST"
+}]'>
+</head>
+<body data-spm="11186623" class="dochelp-detail"><script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");
+t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0b0af96c16267855825801568eca8e&asid=AQAAAAAvx/ZgkDSXbQAAAAC/XTpnXf7hDg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+<script defer src="https://g.alicdn.com/aliyun/perf/js/index.js"></script>
+<script type="text/javascript">
+(function (d) {
+var t = d.createElement("script"); t.type = "text/javascript"; t.async = true; t.id = "tb-beacon-aplus";
+t.src = "//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+<div data-role-topbar="channel"></div>
+
+<!-- 公共搜索 -->
+<!--script src="//www.aliyun.com/resource/website/header_footer/channel-header-2020?_render_mode=block"></script-->
+<div class="help-body">
+<style>
+.help-body {
+min-height: calc(100vh - 80px);
+}
+.help-body-box-knowledgelist .list,
+.help-body-box-videolist .video-list {
+margin-bottom: 35px;
+}
+[class^="dbl-icon-"],
+[class*=" dbl-icon-"] {
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+[class^="dbl-icon-base-"],
+[class*="dbl-icon-base-"] {
+font-family: "dbl-icon-base" !important;
+}
+[class^="dbl-icon-product-"],
+[class*="dbl-icon-product-"] {
+font-family: "dbl-icon-product" !important;
+}
+</style>
+<div class="content-center clearfix">
+<!-- menu S -->
+ <div class="help-menu-box" id="J_HelpMenuBox" data-spm="6">
+<div class="help-menu-inner-box y-clear">
+<div class="help-menu" data-spm="6" data-spm-max-idx="537">
+<div class="menu-back">
+<a href="/" class="menu-back-link">&lt; 文档首页</a>
+<a href="/" class="menu-back-link"><i class="icon-back"></i></a>
+</div>
+<div class="menu-title" id="J_MenuTitle">
+<span class="menu-title-text">
+<a href="/product/94362.html">资源管理</a>
+</span>
+<i class="icon-menu-custom" id="J_AllProductsHoverSwitch"></i>
+</div>
+<div class="menu-splitline"></div>
+<ul id="J_MenuListContainer">
+ <li class="level1"
+data-node-id="132171" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">新功能发布记录</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="132172" data-node-type="1" data-show-type="1">
+<a href="/document_detail/132172.html">
+<span class="menu-item-text">新功能发布记录</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="94370" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">产品简介</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="94475" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94475.html">
+<span class="menu-item-text">什么是资源管理</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="111251" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111251.html">
+<span class="menu-item-text">功能特性</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="111252" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111252.html">
+<span class="menu-item-text">应用场景</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="111212" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111212.html">
+<span class="menu-item-text">基本概念</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="111237" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111237.html">
+<span class="menu-item-text">使用限制</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="205201" data-node-type="1" data-show-type="1">
+<a href="/document_detail/205201.html">
+<span class="menu-item-text">标签分账之旅</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="199622" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199622.html">
+<span class="menu-item-text">资源目录、资源组与标签的区别和联系</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="94479" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94479.html">
+<span class="menu-item-text">支持资源组的云服务</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="171455" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171455.html">
+<span class="menu-item-text">支持标签的云服务</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="132161" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">产品定价</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="151193" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151193.html">
+<span class="menu-item-text">计费方式</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="94376" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">快速入门</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="132174" data-node-type="1" data-show-type="1">
+<a href="/document_detail/132174.html">
+<span class="menu-item-text">入门概述</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="183645" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183645.html">
+<span class="menu-item-text">开通资源目录</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="150781" data-node-type="1" data-show-type="1">
+<a href="/document_detail/150781.html">
+<span class="menu-item-text">创建资源夹</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="150782" data-node-type="1" data-show-type="1">
+<a href="/document_detail/150782.html">
+<span class="menu-item-text">创建成员</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="150784" data-node-type="1" data-show-type="1">
+<a href="/document_detail/150784.html">
+<span class="menu-item-text">创建资源组</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="183513" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183513.html">
+<span class="menu-item-text">创建并绑定自定义标签</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="197295" data-node-type="1" data-show-type="1">
+<a href="/document_detail/197295.html">
+<span class="menu-item-text">资源所有者创建共享单元</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="110707" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源目录</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="200506" data-node-type="1" data-show-type="1">
+<a href="/document_detail/200506.html">
+<span class="menu-item-text">资源目录概述</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="111219" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理资源目录</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="111215" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111215.html">
+<span class="menu-item-text">开通资源目录</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111217" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111217.html">
+<span class="menu-item-text">查看资源目录基本信息</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111218" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111218.html">
+<span class="menu-item-text">关闭资源目录</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="171132" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171132.html">
+<span class="menu-item-text">资源目录服务关联角色</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="111220" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理资源夹</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="111221" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111221.html">
+<span class="menu-item-text">创建资源夹</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111223" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111223.html">
+<span class="menu-item-text">查看资源夹基本信息</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111224" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111224.html">
+<span class="menu-item-text">修改资源夹名称</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111222" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111222.html">
+<span class="menu-item-text">删除资源夹</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="111230" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理成员</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="111231" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111231.html">
+<span class="menu-item-text">创建成员</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="135429" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">邀请成员</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="135287" data-node-type="1" data-show-type="1">
+<a href="/document_detail/135287.html">
+<span class="menu-item-text">邀请阿里云账号加入资源目录</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="135413" data-node-type="1" data-show-type="1">
+<a href="/document_detail/135413.html">
+<span class="menu-item-text">邀请方查看邀请信息</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="135410" data-node-type="1" data-show-type="1">
+<a href="/document_detail/135410.html">
+<span class="menu-item-text">被邀请方处理邀请</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level3"
+data-node-id="111624" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111624.html">
+<span class="menu-item-text">查看成员详情</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="139108" data-node-type="1" data-show-type="1">
+<a href="/document_detail/139108.html">
+<span class="menu-item-text">修改成员名称</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111235" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111235.html">
+<span class="menu-item-text">移动成员</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111234" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111234.html">
+<span class="menu-item-text">访问成员</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111233" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111233.html">
+<span class="menu-item-text">资源账号升级为云账号</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="111236" data-node-type="1" data-show-type="1">
+<a href="/document_detail/111236.html">
+<span class="menu-item-text">移除成员</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="178315" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理管控策略</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="178671" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178671.html">
+<span class="menu-item-text">管控策略概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="178672" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178672.html">
+<span class="menu-item-text">开启管控策略功能</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="178818" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178818.html">
+<span class="menu-item-text">查看管控策略详情</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="178797" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178797.html">
+<span class="menu-item-text">关闭管控策略功能</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="179096" data-node-type="1" data-show-type="1">
+<a href="/document_detail/179096.html">
+<span class="menu-item-text">管控策略语言</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="178316" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理自定义管控策略</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="178796" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178796.html">
+<span class="menu-item-text">创建自定义管控策略</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="178820" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178820.html">
+<span class="menu-item-text">修改自定义管控策略</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="178913" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178913.html">
+<span class="menu-item-text">删除自定义管控策略</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="178967" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178967.html">
+<span class="menu-item-text">绑定自定义管控策略</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="178968" data-node-type="1" data-show-type="1">
+<a href="/document_detail/178968.html">
+<span class="menu-item-text">解绑自定义管控策略</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="181474" data-node-type="1" data-show-type="1">
+<a href="/document_detail/181474.html">
+<span class="menu-item-text">自定义管控策略示例</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="208047" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理可信服务</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="208133" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208133.html">
+<span class="menu-item-text">可信服务概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208117" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208117.html">
+<span class="menu-item-text">管理委派管理员账号</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="160621" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源共享</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="160622" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160622.html">
+<span class="menu-item-text">资源共享概述</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="195822" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源所有者管理共享资源</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="160623" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160623.html">
+<span class="menu-item-text">资源所有者创建共享单元</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160631" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160631.html">
+<span class="menu-item-text">资源所有者查看共享单元详情</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160624" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160624.html">
+<span class="menu-item-text">资源所有者修改共享单元名称</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160627" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160627.html">
+<span class="menu-item-text">资源所有者添加或移除共享资源</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160628" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160628.html">
+<span class="menu-item-text">资源所有者添加或移除资源使用者</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160625" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160625.html">
+<span class="menu-item-text">资源所有者删除共享单元</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160629" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160629.html">
+<span class="menu-item-text">资源所有者查看共享的资源详情</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160630" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160630.html">
+<span class="menu-item-text">资源所有者查看资源使用者详情</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="195824" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源使用者管理共享资源</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="160626" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160626.html">
+<span class="menu-item-text">资源使用者查看参与的资源共享详情</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="94381" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源组</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="94383" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理资源组</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="94485" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94485.html">
+<span class="menu-item-text">创建资源组</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="151181" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151181.html">
+<span class="menu-item-text">查看资源组基本信息</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="151182" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151182.html">
+<span class="menu-item-text">修改资源组名称</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="94488" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94488.html">
+<span class="menu-item-text">删除资源组</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="94490" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94490.html">
+<span class="menu-item-text">添加RAM身份并授权</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="152617" data-node-type="1" data-show-type="1">
+<a href="/document_detail/152617.html">
+<span class="menu-item-text">移除RAM授权</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="94388" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">管理资源</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="94486" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94486.html">
+<span class="menu-item-text">为资源组创建资源</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="94487" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94487.html">
+<span class="menu-item-text">跨资源组转移资源</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="94492" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94492.html">
+<span class="menu-item-text">使用资源组管理资源</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="156982" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="156983" data-node-type="1" data-show-type="1">
+<a href="/document_detail/156983.html">
+<span class="menu-item-text">标签概述</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="183106" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">自定义标签</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="171370" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171370.html">
+<span class="menu-item-text">创建并绑定自定义标签</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="171371" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171371.html">
+<span class="menu-item-text">解绑自定义标签</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="203696" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">预置标签</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="203381" data-node-type="1" data-show-type="1">
+<a href="/document_detail/203381.html">
+<span class="menu-item-text">创建预置标签</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="203700" data-node-type="1" data-show-type="1">
+<a href="/document_detail/203700.html">
+<span class="menu-item-text">绑定预置标签</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="203701" data-node-type="1" data-show-type="1">
+<a href="/document_detail/203701.html">
+<span class="menu-item-text">解绑预置标签</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="171362" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签编辑器</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="185183" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185183.html">
+<span class="menu-item-text">查找资源</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="185184" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185184.html">
+<span class="menu-item-text">管理标签</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="185185" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185185.html">
+<span class="menu-item-text">导出资源列表</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="203310" data-node-type="1" data-show-type="1">
+<a href="/document_detail/203310.html">
+<span class="menu-item-text">查看系统标签及其绑定的资源</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="171456" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171456.html">
+<span class="menu-item-text">使用标签查找资源</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="183108" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签分账</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="183697" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183697.html">
+<span class="menu-item-text">标签分账概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="183109" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183109.html">
+<span class="menu-item-text">使用标签实现成本分摊管理</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="184631" data-node-type="1" data-show-type="1">
+<a href="/document_detail/184631.html">
+<span class="menu-item-text">分账账单查看方式</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="183112" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签进行自动化运维</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="184936" data-node-type="1" data-show-type="1">
+<a href="/document_detail/184936.html">
+<span class="menu-item-text">标签自动化运维概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="185049" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185049.html">
+<span class="menu-item-text">使用运维编排服务批量绑定标签</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="185476" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185476.html">
+<span class="menu-item-text">使用运维编排服务批量修改标签值</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="183771" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183771.html">
+<span class="menu-item-text">使用运维编排服务批量启动带指定标签的ECS实例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="191006" data-node-type="1" data-show-type="1">
+<a href="/document_detail/191006.html">
+<span class="menu-item-text">使用标签将ECS实例自动加入云监控应用分组</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="183117" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签控制资源访问</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="185045" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185045.html">
+<span class="menu-item-text">创建带特定标签的资源</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="185040" data-node-type="1" data-show-type="1">
+<a href="/document_detail/185040.html">
+<span class="menu-item-text">使用标签控制ECS资源的访问</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="110706" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">最佳实践</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="197145" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源共享</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="197147" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用资源目录和共享VPC实现多账号网络互通</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="197429" data-node-type="1" data-show-type="1">
+<a href="/document_detail/197429.html">
+<span class="menu-item-text">方案概述</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="197430" data-node-type="1" data-show-type="1">
+<a href="/document_detail/197430.html">
+<span class="menu-item-text">操作指南</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="183088" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源组</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="110036" data-node-type="1" data-show-type="1">
+<a href="/document_detail/110036.html">
+<span class="menu-item-text">RAM资源分组与授权</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="110058" data-node-type="1" data-show-type="1">
+<a href="/document_detail/110058.html">
+<span class="menu-item-text">资源组分账</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="94493" data-node-type="1" data-show-type="1">
+<a href="/document_detail/94493.html">
+<span class="menu-item-text">使用操作审计记录资源组操作</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="183100" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="189173" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">设计和管理标签</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="171446" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171446.html">
+<span class="menu-item-text">标签设计最佳实践</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="201411" data-node-type="1" data-show-type="1">
+<a href="/document_detail/201411.html">
+<span class="menu-item-text">标签管理最佳实践</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level3"
+data-node-id="189174" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签分账</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="201412" data-node-type="1" data-show-type="1">
+<a href="/document_detail/201412.html">
+<span class="menu-item-text">区分存量资源归属</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="176892" data-node-type="1" data-show-type="1">
+<a href="/document_detail/176892.html">
+<span class="menu-item-text">使用标签实现成本分摊管理</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="183085" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183085.html">
+<span class="menu-item-text">使用标签实现对象存储（OSS）按Bucket的成本分摊管理</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199062" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199062.html">
+<span class="menu-item-text">使用标签实现实例型云服务分账</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199097" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199097.html">
+<span class="menu-item-text">使用标签实现分拆型云服务分账</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199138" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199138.html">
+<span class="menu-item-text">使用标签实现集群型云服务分账</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199064" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199064.html">
+<span class="menu-item-text">查看和导出实例型云服务的分账账单</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199098" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199098.html">
+<span class="menu-item-text">查看和导出分拆型云服务的分账账单</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="199139" data-node-type="1" data-show-type="1">
+<a href="/document_detail/199139.html">
+<span class="menu-item-text">查看和导出集群型云服务的分账账单</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level3"
+data-node-id="189175" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签进行自动化运维</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="171580" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171580.html">
+<span class="menu-item-text">使用运维编排服务批量修改标签值</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="171582" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171582.html">
+<span class="menu-item-text">使用运维编排服务批量绑定标签</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="183363" data-node-type="1" data-show-type="1">
+<a href="/document_detail/183363.html">
+<span class="menu-item-text">使用运维编排服务批量启动带指定标签的ECS实例</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="189228" data-node-type="1" data-show-type="1">
+<a href="/document_detail/189228.html">
+<span class="menu-item-text">使用运维编排服务自动为ECS实例的相关资源绑定标签</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="189760" data-node-type="1" data-show-type="1">
+<a href="/document_detail/189760.html">
+<span class="menu-item-text">使用运维编排服务为ECS实例自动绑定操作系统类型标签</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="190090" data-node-type="1" data-show-type="1">
+<a href="/document_detail/190090.html">
+<span class="menu-item-text">使用运维编排服务为ECS实例自动绑定Linux内核版本标签</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="182169" data-node-type="1" data-show-type="1">
+<a href="/document_detail/182169.html">
+<span class="menu-item-text">使用配置审计查找未绑定指定标签的资源</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="188755" data-node-type="1" data-show-type="1">
+<a href="/document_detail/188755.html">
+<span class="menu-item-text">使用操作审计为资源自动绑定标签</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="171570" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171570.html">
+<span class="menu-item-text">使用标签将ECS实例自动加入云监控应用分组</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="213103" data-node-type="1" data-show-type="1">
+<a href="/document_detail/213103.html">
+<span class="menu-item-text">使用资源编排为云资源批量绑定或更新标签</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level3"
+data-node-id="189177" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">使用标签控制资源访问</span>
+</a>
+<ul>
+ <li class="level4"
+data-node-id="171454" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171454.html">
+<span class="menu-item-text">创建带特定标签的资源</span>
+</a>
+</li>
+ <li class="level4"
+data-node-id="171554" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171554.html">
+<span class="menu-item-text">使用标签控制ECS资源的访问</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1 open"
+data-node-id="158854" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">API参考</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="160024" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160024.html">
+<span class="menu-item-text">API概览</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="160025" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160025.html">
+<span class="menu-item-text">调用方式</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="159972" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159972.html">
+<span class="menu-item-text">签名机制</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="159973" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159973.html">
+<span class="menu-item-text">公共参数</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="159974" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159974.html">
+<span class="menu-item-text">RAM鉴权</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="159975" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159975.html">
+<span class="menu-item-text">获取AccessKey</span>
+</a>
+</li>
+ <li class="level2"
+data-node-id="159171" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源目录</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="159994" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159994.html">
+<span class="menu-item-text">InitResourceDirectory</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159995" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159995.html">
+<span class="menu-item-text">GetResourceDirectory</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160013" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160013.html">
+<span class="menu-item-text">DestroyResourceDirectory</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159996" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159996.html">
+<span class="menu-item-text">CreateFolder</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159432" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159432.html">
+<span class="menu-item-text">DeleteFolder</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160000" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160000.html">
+<span class="menu-item-text">GetFolder</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159997" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159997.html">
+<span class="menu-item-text">ListFoldersForParent</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159998" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159998.html">
+<span class="menu-item-text">ListAncestors</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159999" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159999.html">
+<span class="menu-item-text">UpdateFolder</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160001" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160001.html">
+<span class="menu-item-text">InviteAccountToResourceDirectory</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160002" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160002.html">
+<span class="menu-item-text">GetHandshake</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160003" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160003.html">
+<span class="menu-item-text">AcceptHandshake</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160004" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160004.html">
+<span class="menu-item-text">CancelHandshake</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160005" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160005.html">
+<span class="menu-item-text">DeclineHandshake</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160006" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160006.html">
+<span class="menu-item-text">ListHandshakesForAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160007" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160007.html">
+<span class="menu-item-text">ListHandshakesForResourceDirectory</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159392" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159392.html">
+<span class="menu-item-text">CreateResourceAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159391" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159391.html">
+<span class="menu-item-text">CreateCloudAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159395" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159395.html">
+<span class="menu-item-text">PromoteResourceAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160009" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160009.html">
+<span class="menu-item-text">ResendPromoteResourceAccountEmail</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160008" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160008.html">
+<span class="menu-item-text">ResendCreateCloudAccountEmail</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160010" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160010.html">
+<span class="menu-item-text">CancelCreateCloudAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160011" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160011.html">
+<span class="menu-item-text">CancelPromoteResourceAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159431" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159431.html">
+<span class="menu-item-text">RemoveCloudAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160012" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160012.html">
+<span class="menu-item-text">GetAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160014" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160014.html">
+<span class="menu-item-text">MoveAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160015" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160015.html">
+<span class="menu-item-text">ListAccountsForParent</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160016" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160016.html">
+<span class="menu-item-text">ListAccounts</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160017" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160017.html">
+<span class="menu-item-text">GetPayerForAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="160018" data-node-type="1" data-show-type="1">
+<a href="/document_detail/160018.html">
+<span class="menu-item-text">UpdateAccount</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="161434" data-node-type="1" data-show-type="1">
+<a href="/document_detail/161434.html">
+<span class="menu-item-text">ListTrustedServiceStatus</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208284" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208284.html">
+<span class="menu-item-text">EnableControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208285" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208285.html">
+<span class="menu-item-text">DisableControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208286" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208286.html">
+<span class="menu-item-text">GetControlPolicyEnablementStatus</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208287" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208287.html">
+<span class="menu-item-text">CreateControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208288" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208288.html">
+<span class="menu-item-text">GetControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208289" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208289.html">
+<span class="menu-item-text">UpdateControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208283" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208283.html">
+<span class="menu-item-text">DeleteControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208330" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208330.html">
+<span class="menu-item-text">AttachControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208331" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208331.html">
+<span class="menu-item-text">DetachControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208365" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208365.html">
+<span class="menu-item-text">ListControlPolicies</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208366" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208366.html">
+<span class="menu-item-text">ListControlPolicyAttachmentsForTarget</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="208367" data-node-type="1" data-show-type="1">
+<a href="/document_detail/208367.html">
+<span class="menu-item-text">ListTargetAttachmentsForControlPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="209309" data-node-type="1" data-show-type="1">
+<a href="/document_detail/209309.html">
+<span class="menu-item-text">RegisterDelegatedAdministrator</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="209311" data-node-type="1" data-show-type="1">
+<a href="/document_detail/209311.html">
+<span class="menu-item-text">DeregisterDelegatedAdministrator</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="209312" data-node-type="1" data-show-type="1">
+<a href="/document_detail/209312.html">
+<span class="menu-item-text">ListDelegatedAdministrators</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="209313" data-node-type="1" data-show-type="1">
+<a href="/document_detail/209313.html">
+<span class="menu-item-text">ListDelegatedServicesForAccount</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="193445" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源共享</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="193584" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193584.html">
+<span class="menu-item-text">CreateResourceShare</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193726" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193726.html">
+<span class="menu-item-text">ListResourceShares</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193728" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193728.html">
+<span class="menu-item-text">UpdateResourceShare</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193727" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193727.html">
+<span class="menu-item-text">DeleteResourceShare</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193816" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193816.html">
+<span class="menu-item-text">AssociateResourceShare</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193825" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193825.html">
+<span class="menu-item-text">DisassociateResourceShare</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193838" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193838.html">
+<span class="menu-item-text">ListResourceShareAssociations</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193857" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193857.html">
+<span class="menu-item-text">ListSharedResources</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="194053" data-node-type="1" data-show-type="1">
+<a href="/document_detail/194053.html">
+<span class="menu-item-text">ListSharedTargets</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="193858" data-node-type="1" data-show-type="1">
+<a href="/document_detail/193858.html">
+<span class="menu-item-text">DescribeRegions</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="159170" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源组</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="158865" data-node-type="1" data-show-type="1">
+<a href="/document_detail/158865.html">
+<span class="menu-item-text">CreateResourceGroup</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="158855" data-node-type="1" data-show-type="1">
+<a href="/document_detail/158855.html">
+<span class="menu-item-text">ListResourceGroups</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="158866" data-node-type="1" data-show-type="1">
+<a href="/document_detail/158866.html">
+<span class="menu-item-text">GetResourceGroup</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159977" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159977.html">
+<span class="menu-item-text">DeleteResourceGroup</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159978" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159978.html">
+<span class="menu-item-text">UpdateResourceGroup</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159976" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159976.html">
+<span class="menu-item-text">CreatePolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159979" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159979.html">
+<span class="menu-item-text">ListPolicies</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159980" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159980.html">
+<span class="menu-item-text">GetPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159987" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159987.html">
+<span class="menu-item-text">DeletePolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159981" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159981.html">
+<span class="menu-item-text">CreatePolicyVersion</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159041" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159041.html">
+<span class="menu-item-text">DeletePolicyVersion</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159982" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159982.html">
+<span class="menu-item-text">ListPolicyVersions</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159983" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159983.html">
+<span class="menu-item-text">GetPolicyVersion</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159984" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159984.html">
+<span class="menu-item-text">SetDefaultPolicyVersion</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159985" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159985.html">
+<span class="menu-item-text">AttachPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159168" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159168.html">
+<span class="menu-item-text">DetachPolicy</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159986" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159986.html">
+<span class="menu-item-text">ListPolicyAttachments</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159988" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159988.html">
+<span class="menu-item-text">CreateRole</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159990" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159990.html">
+<span class="menu-item-text">GetRole</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159991" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159991.html">
+<span class="menu-item-text">ListRoles</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159992" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159992.html">
+<span class="menu-item-text">UpdateRole</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159989" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159989.html">
+<span class="menu-item-text">DeleteRole</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="159993" data-node-type="1" data-show-type="1">
+<a href="/document_detail/159993.html">
+<span class="menu-item-text">ListResources</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="171226" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171226.html">
+<span class="menu-item-text">CreateServiceLinkedRole</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="171229" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171229.html">
+<span class="menu-item-text">GetServiceLinkedRoleDeletionStatus</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="171230" data-node-type="1" data-show-type="1">
+<a href="/document_detail/171230.html">
+<span class="menu-item-text">DeleteServiceLinkedRole</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2 open"
+data-node-id="162209" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="170112" data-node-type="1" data-show-type="1">
+<a href="/document_detail/170112.html">
+<span class="menu-item-text">接入地址</span>
+</a>
+</li>
+ <li class="level3 action"
+data-node-id="172061" data-node-type="1" data-show-type="1">
+<a href="/document_detail/172061.html">
+<span class="menu-item-text">支持标签API的资源类型</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164375" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164375.html">
+<span class="menu-item-text">TagResources</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164376" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164376.html">
+<span class="menu-item-text">UntagResources</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164374" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164374.html">
+<span class="menu-item-text">ListTagResources</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164377" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164377.html">
+<span class="menu-item-text">ListTagKeys</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164378" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164378.html">
+<span class="menu-item-text">ListTagValues</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="198687" data-node-type="1" data-show-type="1">
+<a href="/document_detail/198687.html">
+<span class="menu-item-text">DescribeRegions</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="164460" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">SDK参考</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="174166" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源管理SDK</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="164461" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164461.html">
+<span class="menu-item-text">SDK概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164462" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164462.html">
+<span class="menu-item-text">Java示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164463" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164463.html">
+<span class="menu-item-text">Python示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="164464" data-node-type="1" data-show-type="1">
+<a href="/document_detail/164464.html">
+<span class="menu-item-text">Go示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="189390" data-node-type="1" data-show-type="1">
+<a href="/document_detail/189390.html">
+<span class="menu-item-text">PHP示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="189389" data-node-type="1" data-show-type="1">
+<a href="/document_detail/189389.html">
+<span class="menu-item-text">Node.js示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="189388" data-node-type="1" data-show-type="1">
+<a href="/document_detail/189388.html">
+<span class="menu-item-text">.NET示例</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="174168" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签SDK</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="174567" data-node-type="1" data-show-type="1">
+<a href="/document_detail/174567.html">
+<span class="menu-item-text">SDK概述</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="174473" data-node-type="1" data-show-type="1">
+<a href="/document_detail/174473.html">
+<span class="menu-item-text">Java示例</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="174566" data-node-type="1" data-show-type="1">
+<a href="/document_detail/174566.html">
+<span class="menu-item-text">Python示例</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ <li class="level1"
+data-node-id="120044" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">常见问题</span>
+</a>
+<ul>
+ <li class="level2"
+data-node-id="183119" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">资源目录</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="143556" data-node-type="1" data-show-type="1">
+<a href="/document_detail/143556.html">
+<span class="menu-item-text">开通资源目录的常见问题</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="151055" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151055.html">
+<span class="menu-item-text">创建成员的常见问题</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="151056" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151056.html">
+<span class="menu-item-text">升级成员的常见问题</span>
+</a>
+</li>
+ <li class="level3"
+data-node-id="151057" data-node-type="1" data-show-type="1">
+<a href="/document_detail/151057.html">
+<span class="menu-item-text">邀请成员的常见问题</span>
+</a>
+</li>
+ </ul>
+</li>
+ <li class="level2"
+data-node-id="183120" data-node-type="8" data-show-type="1">
+<a href="javascript:void(0);">
+<i class="icon-triangle"></i><span class="menu-item-text">标签</span>
+</a>
+<ul>
+ <li class="level3"
+data-node-id="201871" data-node-type="2" data-show-type="1">
+<a href="/knowledge_detail/201871.html">
+<span class="menu-item-text">标签的常见问题</span>
+</a>
+</li>
+ </ul>
+</li>
+ </ul>
+</li>
+ </ul>
+</div>
+</div>
+<div class="all-products" id="J_AllProducts">
+<div class="all-products-head">
+<div class="all-products-title">全部产品</div>
+<div class="all-products-search-wrapper">
+<div class="all-products-search">
+<input class="all-products-search-box-input" id="J_AllProductsSearch" placeholder="请输入产品名称" />
+<i class="icon-search"></i>
+<ul class="all-products-search-result">
+</ul>
+</div>
+</div>
+</div>
+<div class="all-products-body" id="J_AllProductsBody">
+<!-- 全部产品 -->
+ <div class="all-products-body-block">
+<span>弹性计算</span>
+<ul>
+ <li><a href="/product/25365.html">云服务器 ECS</a></li>
+ <li><a href="/product/58607.html">轻量应用服务器</a></li>
+ <li><a href="/product/155040.html">GPU云服务器</a></li>
+ <li><a href="/product/155039.html">FPGA云服务器</a></li>
+ <li><a href="/product/68326.html">专有宿主机</a></li>
+ <li><a href="/product/87486.html">弹性容器实例</a></li>
+ <li><a href="/product/68242.html">无影云桌面</a></li>
+ <li><a href="/product/57664.html">弹性高性能计算E-HPC</a></li>
+ <li><a href="/product/27992.html">批量计算</a></li>
+ <li><a href="/product/25855.html">弹性伸缩</a></li>
+ <li><a href="/product/28850.html">资源编排</a></li>
+ <li><a href="/product/119529.html">运维编排服务</a></li>
+ <li><a href="/product/121538.html">服务器迁移中心</a></li>
+ <li><a href="/product/170490.html">弹性加速计算实例EAIS</a></li>
+ <li><a href="/product/50980.html">函数计算</a></li>
+ <li><a href="/product/118957.html">Serverless应用引擎</a></li>
+ <li><a href="/product/113549.html">Serverless工作流</a></li>
+ <li><a href="/product/183935.html">云盒</a></li>
+ <li><a href="/product/254658.html">弹性云手机</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>存储</span>
+<ul>
+ <li><a href="/product/207104.html">阿里云存储服务</a></li>
+ <li><a href="/product/31815.html">对象存储 OSS</a></li>
+ <li><a href="/product/28958.html">日志服务</a></li>
+ <li><a href="/product/27516.html">文件存储 NAS</a></li>
+ <li><a href="/product/111536.html">文件存储 CPFS</a></li>
+ <li><a href="/product/87442.html">文件存储 HDFS</a></li>
+ <li><a href="/product/140631.html">数据库文件存储</a></li>
+ <li><a href="/product/175790.html">相册与网盘服务</a></li>
+ <li><a href="/product/27278.html">表格存储 Tablestore</a></li>
+ <li><a href="/product/62354.html">智能媒体管理</a></li>
+ <li><a href="/product/54466.html">离线迁移服务（闪电立方）</a></li>
+ <li><a href="/product/94157.html">在线迁移服务</a></li>
+ <li><a href="/product/60939.html">混合云备份服务</a></li>
+ <li><a href="/product/60938.html">混合云容灾服务</a></li>
+ <li><a href="/product/53923.html">云存储网关</a></li>
+ <li><a href="/product/53942.html">混合云存储阵列</a></li>
+ <li><a href="/product/55352.html">智能云相册</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>数据库</span>
+<ul>
+ <li><a href="/product/58609.html">PolarDB MySQL 云原生数据库</a></li>
+ <li><a href="/product/172537.html">PolarDB-O 云原生数据库</a></li>
+ <li><a href="/product/172538.html">PolarDB PostgreSQL 云原生数据库</a></li>
+ <li><a href="/product/29657.html">PolarDB-X 云原生分布式数据库</a></li>
+ <li><a href="/product/26090.html">云数据库 RDS</a></li>
+ <li><a href="/product/26458.html">云数据库 OceanBase</a></li>
+ <li><a href="/product/156215.html">云数据库专属集群 MyBase</a></li>
+ <li><a href="/product/172543.html">云原生多模数据库 Lindorm</a></li>
+ <li><a href="/product/26340.html">云数据库 Redis</a></li>
+ <li><a href="/product/26556.html">云数据库 MongoDB</a></li>
+ <li><a href="/product/49055.html">云数据库 HBase</a></li>
+ <li><a href="/product/126560.html">云数据库 Cassandra</a></li>
+ <li><a href="/product/54825.html">时序数据库 TSDB</a></li>
+ <li><a href="/product/102714.html">图数据库 GDB</a></li>
+ <li><a href="/product/26528.html">云数据库 Memcache</a></li>
+ <li><a href="/product/146759.html">可信账本数据库 LedgerDB</a></li>
+ <li><a href="/product/92664.html">云原生数仓 AnalyticDB MySQL</a></li>
+ <li><a href="/product/35364.html">云原生数仓 AnalyticDB PostgreSQL</a></li>
+ <li><a href="/product/144466.html">云数据库 ClickHouse</a></li>
+ <li><a href="/product/70174.html">云原生数据湖分析 DLA</a></li>
+ <li><a href="/product/26590.html">数据传输服务 DTS</a></li>
+ <li><a href="/product/26437.html">数据管理 DMS</a></li>
+ <li><a href="/product/58992.html">数据库备份 DBS</a></li>
+ <li><a href="/product/63907.html">数据库自治服务 DAS</a></li>
+ <li><a href="/product/117995.html">数据库网关 DG</a></li>
+ <li><a href="/product/118844.html">数据库专家服务</a></li>
+ <li><a href="/product/53556.html">数据库和应用迁移服务 ADAM</a></li>
+ <li><a href="/product/26320.html">HybridDB for MySQL</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>安全</span>
+<ul>
+ <li><a href="/product/35474.html">阿里云安全产品和技术</a></li>
+ <li><a href="/product/28396.html">DDoS防护</a></li>
+ <li><a href="/product/28515.html">Web 应用防火墙</a></li>
+ <li><a href="/product/28533.html">SSL证书服务</a></li>
+ <li><a href="/product/28498.html">云安全中心</a></li>
+ <li><a href="/product/90174.html">云防火墙</a></li>
+ <li><a href="/product/52862.html">堡垒机</a></li>
+ <li><a href="/product/65268.html">漏洞扫描</a></li>
+ <li><a href="/product/28802.html">操作审计</a></li>
+ <li><a href="/product/156036.html">终端访问控制系统</a></li>
+ <li><a href="/product/28625.html">访问控制</a></li>
+ <li><a href="/product/111120.html">应用身份服务</a></li>
+ <li><a href="/product/52432.html">数据库审计</a></li>
+ <li><a href="/product/28341.html">加密服务</a></li>
+ <li><a href="/product/88674.html">数据安全中心</a></li>
+ <li><a href="/product/28415.html">内容安全</a></li>
+ <li><a href="/product/28933.html">密钥管理服务</a></li>
+ <li><a href="/product/69981.html">风险识别</a></li>
+ <li><a href="/product/57038.html">实人认证</a></li>
+ <li><a href="/product/65031.html">游戏盾</a></li>
+ <li><a href="/product/42806.html">安全管家</a></li>
+ <li><a href="/product/28376.html">先知（安全众测）</a></li>
+ <li><a href="/product/28449.html">安骑士</a></li>
+ <li><a href="/product/28308.html">阿里云验证码</a></li>
+ <li><a href="/product/99161.html">金融级实人认证</a></li>
+ <li><a href="/product/217922.html">安全认证</a></li>
+ <li><a href="/product/177618.html">增强版实人认证</a></li>
+ <li><a href="/product/181210.html">云安全访问服务</a></li>
+ <li><a href="/product/170974.html">威胁情报</a></li>
+ <li><a href="/product/184796.html">特权访问服务</a></li>
+ <li><a href="/product/252812.html">云治理中心</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>大数据</span>
+<ul>
+ <li><a href="/product/27797.html">MaxCompute</a></li>
+ <li><a href="/product/28066.html">E-MapReduce</a></li>
+ <li><a href="/product/57736.html">阿里云Elasticsearch</a></li>
+ <li><a href="/product/182348.html">数据湖构建</a></li>
+ <li><a href="/product/45029.html">实时计算Flink版</a></li>
+ <li><a href="/product/113622.html">交互式分析Hologres</a></li>
+ <li><a href="/product/167610.html">Databricks数据洞察</a></li>
+ <li><a href="/product/29102.html">开放搜索</a></li>
+ <li><a href="/product/121021.html">图计算服务</a></li>
+ <li><a href="/product/72772.html">DataWorks</a></li>
+ <li><a href="/product/87584.html">智能数据构建与管理 Dataphin</a></li>
+ <li><a href="/product/30343.html">Quick BI</a></li>
+ <li><a href="/product/43570.html">DataV数据可视化</a></li>
+ <li><a href="/product/95045.html">智能推荐</a></li>
+ <li><a href="/product/132007.html">智能用户增长</a></li>
+ <li><a href="/product/127040.html">数据资源平台</a></li>
+ <li><a href="/product/53345.html">DataHub</a></li>
+ <li><a href="/product/194063.html">Quick A+</a></li>
+ <li><a href="/product/200311.html">隐私增强计算</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>人工智能</span>
+<ul>
+ <li><a href="/product/30347.html">机器学习PAI</a></li>
+ <li><a href="/product/127787.html">卫星及无人机遥感影像分析产品</a></li>
+ <li><a href="/product/66413.html">图像搜索</a></li>
+ <li><a href="/product/112012.html">视觉计算服务</a></li>
+ <li><a href="/product/133692.html">智能视觉生产</a></li>
+ <li><a href="/product/129238.html">城市视觉智能引擎</a></li>
+ <li><a href="/product/128713.html">多媒体AI</a></li>
+ <li><a href="/product/30413.html">智能语音交互</a></li>
+ <li><a href="/product/43579.html">印刷文字识别</a></li>
+ <li><a href="/product/60058.html">自然语言处理</a></li>
+ <li><a href="/product/116783.html">交通云控平台</a></li>
+ <li><a href="/product/125569.html">工业大脑开放平台</a></li>
+ <li><a href="/product/30396.html">机器翻译</a></li>
+ <li><a href="/product/96223.html">人工智能众包</a></li>
+ <li><a href="/product/165107.html">全息空间</a></li>
+ <li><a href="/product/158412.html">视频内容检索</a></li>
+ <li><a href="/product/148559.html">语言协同平台</a></li>
+ <li><a href="/product/138704.html">三维空间重建</a></li>
+ <li><a href="/product/142958.html">阿里云视觉智能开放平台</a></li>
+ <li><a href="/product/199382.html">基因分析平台</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>网络与CDN</span>
+<ul>
+ <li><a href="/product/146370.html">网络介绍</a></li>
+ <li><a href="/product/27706.html">专有网络 VPC</a></li>
+ <li><a href="/product/64583.html">云解析 PrivateZone</a></li>
+ <li><a href="/product/27537.html">负载均衡</a></li>
+ <li><a href="/product/44413.html">NAT 网关</a></li>
+ <li><a href="/product/61789.html">弹性公网 IP</a></li>
+ <li><a href="/product/55092.html">共享带宽</a></li>
+ <li><a href="/product/55093.html">共享流量包</a></li>
+ <li><a href="/product/59006.html">云企业网</a></li>
+ <li><a href="/product/55629.html">全球加速</a></li>
+ <li><a href="/product/68086.html">智能接入网关</a></li>
+ <li><a href="/product/27782.html">高速通道</a></li>
+ <li><a href="/product/27099.html">CDN</a></li>
+ <li><a href="/product/64812.html">全站加速</a></li>
+ <li><a href="/product/63560.html">SCDN</a></li>
+ <li><a href="/product/54287.html">PCDN</a></li>
+ <li><a href="/product/62684.html">边缘节点服务ENS</a></li>
+ <li><a href="/product/85563.html">IPv6网关</a></li>
+ <li><a href="/product/65234.html">VPN网关</a></li>
+ <li><a href="/product/120462.html">私网连接 PrivateLink</a></li>
+ <li><a href="/product/164697.html">任播弹性公网IP</a></li>
+ <li><a href="/product/198135.html">云网管</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>视频服务</span>
+<ul>
+ <li><a href="/product/29949.html">视频直播</a></li>
+ <li><a href="/product/29932.html">视频点播</a></li>
+ <li><a href="/product/61399.html">音视频通信</a></li>
+ <li><a href="/product/139635.html">云视频会议</a></li>
+ <li><a href="/product/29194.html">媒体处理</a></li>
+ <li><a href="/product/108765.html">视图计算</a></li>
+ <li><a href="/product/91080.html">智能视觉</a></li>
+ <li><a href="/product/193643.html">智能媒体生产</a></li>
+ <li><a href="/product/261167.html">互动直播</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>容器与中间件</span>
+<ul>
+ <li><a href="/product/85222.html">容器服务Kubernetes版</a></li>
+ <li><a href="/product/147365.html">服务网格 ASM</a></li>
+ <li><a href="/product/60716.html">容器镜像服务 ACR</a></li>
+ <li><a href="/product/29500.html">企业级分布式应用服务 EDAS</a></li>
+ <li><a href="/product/123350.html">微服务引擎MSE</a></li>
+ <li><a href="/product/59604.html">应用配置管理 ACM</a></li>
+ <li><a href="/product/48444.html">全局事务服务 GTS</a></li>
+ <li><a href="/product/31788.html">云服务总线CSB</a></li>
+ <li><a href="/product/29530.html">消息队列RocketMQ版</a></li>
+ <li><a href="/product/161886.html">事件总线EventBridge</a></li>
+ <li><a href="/product/68138.html">消息队列Kafka版</a></li>
+ <li><a href="/product/100989.html">消息队列RabbitMQ版</a></li>
+ <li><a href="/product/100973.html">微消息队列MQTT版</a></li>
+ <li><a href="/product/27412.html">消息服务MNS</a></li>
+ <li><a href="/product/147760.html">分布式任务调度 SchedulerX</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>开发与运维</span>
+<ul>
+ <li><a href="/product/34364.html">应用实时监控服务ARMS</a></li>
+ <li><a href="/product/122122.html">Prometheus监控</a></li>
+ <li><a href="/product/28572.html">云监控</a></li>
+ <li><a href="/product/87450.html">应用高可用服务 AHAS</a></li>
+ <li><a href="/product/65862.html">智能顾问</a></li>
+ <li><a href="/product/60298.html">Node.js 性能平台</a></li>
+ <li><a href="/product/90275.html">链路追踪Tracing Analysis</a></li>
+ <li><a href="/product/113017.html">Web应用托管服务</a></li>
+ <li><a href="/product/29260.html">性能测试 PTS</a></li>
+ <li><a href="/product/50644.html">移动测试</a></li>
+ <li><a href="/product/128626.html">应用发现服务</a></li>
+ <li><a href="/product/65109.html">移动研发平台EMAS</a></li>
+ <li><a href="/product/148063.html">移动DevOps</a></li>
+ <li><a href="/product/51340.html">移动热修复</a></li>
+ <li><a href="/product/93881.html">崩溃分析</a></li>
+ <li><a href="/product/149957.html">性能分析</a></li>
+ <li><a href="/product/149958.html">远程日志</a></li>
+ <li><a href="/product/30047.html">移动推送</a></li>
+ <li><a href="/product/30019.html">移动数据分析</a></li>
+ <li><a href="/product/51341.html">移动用户反馈</a></li>
+ <li><a href="/product/30100.html">HTTPDNS</a></li>
+ <li><a href="/product/74373.html">OpenAPI Explorer</a></li>
+ <li><a href="/product/89853.html">云命令行</a></li>
+ <li><a href="/product/113555.html">逻辑编排</a></li>
+ <li><a href="/product/29966.html">Alibaba Cloud Toolkit</a></li>
+ <li><a href="/product/51588.html">云效</a></li>
+ <li><a href="/product/150040.html">云效2020</a></li>
+ <li><a href="/product/94362.html">资源管理</a></li>
+ <li><a href="/product/117209.html">小程序云</a></li>
+ <li><a href="/product/85188.html">全局流量管理</a></li>
+ <li><a href="/product/127306.html">配置审计</a></li>
+ <li><a href="/product/144772.html">管理控制台</a></li>
+ <li><a href="/product/169930.html">IT治理样板间</a></li>
+ <li><a href="/product/182827.html">云速搭</a></li>
+ <li><a href="/product/171006.html">配额中心</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>API与工具</span>
+<ul>
+ <li><a href="/product/29991.html">阿里云CLI</a></li>
+ <li><a href="/product/262060.html">阿里云SDK</a></li>
+ <li><a href="/product/108104.html">.NET SDK</a></li>
+ <li><a href="/product/106632.html">Ansible</a></li>
+ <li><a href="/product/87964.html">阿里云交易和账单管理API</a></li>
+ <li><a href="/product/161245.html">云开发平台</a></li>
+ <li><a href="/product/55903.html">CodePipeline</a></li>
+ <li><a href="/product/108103.html">Go SDK</a></li>
+ <li><a href="/product/108101.html">Java SDK</a></li>
+ <li><a href="/product/108106.html">Node.js SDK</a></li>
+ <li><a href="/product/108105.html">PHP SDK</a></li>
+ <li><a href="/product/151465.html">Pulumi</a></li>
+ <li><a href="/product/108102.html">Python SDK</a></li>
+ <li><a href="/product/52507.html">集成开发最佳实践</a></li>
+ <li><a href="/product/95817.html">Terraform</a></li>
+ <li><a href="/product/163246.html">工单系统API</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>物联网</span>
+<ul>
+ <li><a href="/product/30520.html">阿里云物联网平台</a></li>
+ <li><a href="/product/93051.html">设备接入Link SDK</a></li>
+ <li><a href="/product/123206.html">IoT物联网操作系统</a></li>
+ <li><a href="/product/100846.html">IoT设备身份认证</a></li>
+ <li><a href="/product/123205.html">物联网应用开发</a></li>
+ <li><a href="/product/113682.html">物联网数据分析</a></li>
+ <li><a href="/product/69083.html">物联网边缘计算</a></li>
+ <li><a href="/product/103976.html">物联网视频服务</a></li>
+ <li><a href="/product/96281.html">物联网络管理平台</a></li>
+ <li><a href="/product/57702.html">物联网无线连接服务</a></li>
+ <li><a href="/product/123198.html">IoT安全运营中心</a></li>
+ <li><a href="/product/123201.html">IoT可信执行环境</a></li>
+ <li><a href="/product/123231.html">IoT固件安全检测</a></li>
+ <li><a href="/product/123256.html">IoT安全解决方案</a></li>
+ <li><a href="/product/123204.html">IoT可信服务管理</a></li>
+ <li><a href="/product/123207.html">生活物联网平台</a></li>
+ <li><a href="/product/179261.html">AIoT能力中心</a></li>
+ <li><a href="/product/114735.html">物联网应用托管服务</a></li>
+ <li><a href="/product/132087.html">物联网应用服务</a></li>
+ <li><a href="/product/71329.html">智联车管理云平台</a></li>
+ <li><a href="/product/279488.html">阿里云Vlog产品说明</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>物联网行业方案</span>
+<ul>
+ <li><a href="/product/123208.html">工业互联网平台</a></li>
+ <li><a href="/product/123211.html">阿里云IoT技术认证</a></li>
+ <li><a href="/product/151277.html">数字社区平台</a></li>
+ <li><a href="/product/154967.html">线下广告投放平台</a></li>
+ <li><a href="/product/187743.html">AIoT数字园区引擎</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>专有云</span>
+<ul>
+ <li><a href="/product/164092.html">企业版</a></li>
+ <li><a href="/product/164094.html">敏捷版</a></li>
+ <li><a href="/product/164099.html">一体机</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>专有云（线下）</span>
+<ul>
+ <li><a href="/product/87491.html">移动研发平台EMAS-专有云</a></li>
+ <li><a href="/product/87823.html">Native DevOps</a></li>
+ <li><a href="/product/87886.html">跨平台 DevOps</a></li>
+ <li><a href="/product/87890.html">移动API网关</a></li>
+ <li><a href="/product/87891.html">通道服务</a></li>
+ <li><a href="/product/88006.html">远程配置</a></li>
+ <li><a href="/product/87889.html">移动监控</a></li>
+ <li><a href="/product/87893.html">移动测试</a></li>
+ <li><a href="/product/87894.html">移动热修复</a></li>
+ <li><a href="/product/89089.html">移动数据分析</a></li>
+ <li><a href="/product/92222.html">移动推送</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>企业应用与服务</span>
+<ul>
+ <li><a href="/product/167382.html">Teambition</a></li>
+ <li><a href="/product/55759.html">云投屏</a></li>
+ <li><a href="/product/55838.html">机器人流程自动化RPA</a></li>
+ <li><a href="/product/147291.html">云行情</a></li>
+ <li><a href="/product/127241.html">工业视觉智能</a></li>
+ <li><a href="/product/131495.html">货架商品识别与管理</a></li>
+ <li><a href="/product/150643.html">专有钉钉</a></li>
+ <li><a href="/product/162570.html">地址标准化</a></li>
+ <li><a href="/product/151537.html">IP地理位置库</a></li>
+ <li><a href="/product/171674.html">云游戏平台</a></li>
+ <li><a href="/product/35468.html">备案</a></li>
+ <li><a href="/product/52375.html">云 AP</a></li>
+ <li><a href="/product/29462.html">API 网关</a></li>
+ <li><a href="/product/29412.html">邮件推送</a></li>
+ <li><a href="/product/124679.html">云价签</a></li>
+ <li><a href="/product/157323.html">专属钉钉解决方案</a></li>
+ <li><a href="/product/84950.html">区块链服务 BaaS</a></li>
+ <li><a href="/product/165835.html">可信计算服务</a></li>
+ <li><a href="/product/165833.html">分布式数字身份</a></li>
+ <li><a href="/product/169830.html">跨链数据连接服务</a></li>
+ <li><a href="/product/44282.html">短信服务</a></li>
+ <li><a href="/product/54853.html">语音服务</a></li>
+ <li><a href="/product/126730.html">智能联络中心</a></li>
+ <li><a href="/product/59433.html">号码隐私保护</a></li>
+ <li><a href="/product/75010.html">号码认证服务</a></li>
+ <li><a href="/product/151883.html">号码百科</a></li>
+ <li><a href="/product/86106.html">云通信网络加速</a></li>
+ <li><a href="/product/59499.html">云呼叫中心</a></li>
+ <li><a href="/product/59495.html">智能对话机器人</a></li>
+ <li><a href="/product/148476.html">智能外呼机器人</a></li>
+ <li><a href="/product/148474.html">智能语音导航</a></li>
+ <li><a href="/product/50727.html">智能对话分析</a></li>
+ <li><a href="/product/55138.html">云客服</a></li>
+ <li><a href="/product/172175.html">智能双录质检</a></li>
+ <li><a href="/product/88587.html">Linkedmall</a></li>
+ <li><a href="/product/68336.html">鹿班</a></li>
+ <li><a href="/product/162202.html">智能数据助理</a></li>
+ <li><a href="/product/30488.html">云市场</a></li>
+ <li><a href="/product/200679.html">云码（广告营销）</a></li>
+ <li><a href="/product/203273.html">3D全景网站</a></li>
+ <li><a href="/product/205072.html">新零售智能助理</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>数字金融</span>
+<ul>
+ <li><a href="/product/49548.html">移动开发平台 mPaaS</a></li>
+ <li><a href="/product/130189.html">金融分布式架构 SOFAStack</a></li>
+ <li><a href="/product/144917.html">SOFAStack 微服务</a></li>
+ <li><a href="/product/153275.html">SOFAStack API 统一网关</a></li>
+ <li><a href="/product/29849.html">金融云</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>域名与网站</span>
+<ul>
+ <li><a href="/product/35473.html">域名</a></li>
+ <li><a href="/product/35465.html">云虚拟主机</a></li>
+ <li><a href="/product/29697.html">云解析 DNS</a></li>
+ <li><a href="/product/162402.html">阿里云公共DNS</a></li>
+ <li><a href="/product/35466.html">企业邮箱</a></li>
+ <li><a href="/product/29830.html">弹性 Web 托管</a></li>
+ <li><a href="/product/146202.html">ICP许可证</a></li>
+ <li><a href="/product/154872.html">EDI许可证</a></li>
+ <li><a href="/product/184221.html">食品经营许可证</a></li>
+ <li><a href="/product/142526.html">云·速成美站</a></li>
+ <li><a href="/product/142528.html">云·企业官网</a></li>
+ <li><a href="/product/163260.html">资质管家服务</a></li>
+ <li><a href="/product/181225.html">网络文化经营许可证（文网文）</a></li>
+ <li><a href="/product/185515.html">CDN经营许可证</a></li>
+ <li><a href="/product/185514.html">IDC经营许可证</a></li>
+ <li><a href="/product/185513.html">SP经营许可证</a></li>
+ <li><a href="/product/185512.html">ISP经营许可证</a></li>
+ <li><a href="/product/193830.html">高新技术企业认定</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>工商财税与知识产权</span>
+<ul>
+ <li><a href="/product/88591.html">阿里云商标服务</a></li>
+ <li><a href="/product/120855.html">工商注册服务</a></li>
+ <li><a href="/product/223778.html">工商变更</a></li>
+ <li><a href="/product/223779.html">工商注销</a></li>
+ <li><a href="/product/128042.html">软件著作权登记</a></li>
+ <li><a href="/product/127679.html">图片服务</a></li>
+ <li><a href="/product/151494.html">代理记账</a></li>
+ <li><a href="/product/168980.html">智能logo设计</a></li>
+ <li><a href="/product/194185.html">智能财税</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>解决方案</span>
+<ul>
+ <li><a href="/product/57192.html">SAP 解决方案</a></li>
+ <li><a href="/product/63551.html">通用解决方案</a></li>
+ <li><a href="/product/93153.html">阿里政务云</a></li>
+ <li><a href="/product/123690.html">MindSphere on Alibaba Cloud</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>会员服务</span>
+<ul>
+ <li><a href="/product/35470.html">财务</a></li>
+ <li><a href="/product/100369.html">用户中心</a></li>
+ <li><a href="/product/35469.html">账号管理</a></li>
+ <li><a href="/product/88767.html">费用中心</a></li>
+ <li><a href="/product/64356.html">会员积分</a></li>
+ <li><a href="/product/67530.html">活动</a></li>
+ <li><a href="/product/122614.html">云大使推荐返现</a></li>
+ <li><a href="/product/193770.html">飞天会员</a></li>
+ </ul>
+</div>
+ <div class="all-products-body-block">
+<span>更多</span>
+<ul>
+ <li><a href="/product/44216.html">支持与服务</a></li>
+ <li><a href="/product/48842.html">阿里云App</a></li>
+ <li><a href="/product/71911.html">阿里云图标</a></li>
+ <li><a href="/product/67275.html">法律条款</a></li>
+ <li><a href="/product/35471.html">阿里云规则</a></li>
+ <li><a href="/product/90850.html">阿里云集成转售解决方案</a></li>
+ <li><a href="/product/84455.html">Red Hat云接入和Windows许可证</a></li>
+ <li><a href="/product/32348.html">阿里云认证</a></li>
+ </ul>
+</div>
+ </div>
+</div>
+</div>
+ <!-- menu E -->
+<div class="help-body-box help-body-box-detail" data-spm="2">
+<div class="help-body-box-header" data-spm="3">
+<i id="J_MobileModalSwitcher" class="dbl-icon-base dbl-icon-base-gegduo"></i>
+<!-- 面包屑 -->
+<ul class="crumbs clearfix">
+<!-- 面包屑 -->
+<li><a href="/">首页</a>&nbsp;&gt;&nbsp;</li>
+ <li><a href="/product/94362.html">资源管理</a>&nbsp;&gt;&nbsp;</li>
+ <li><a href="/document_detail/158854.html">API参考</a>&nbsp;&gt;&nbsp;</li>
+ <li><a href="/document_detail/162209.html">标签</a>&nbsp;&gt;&nbsp;</li>
+ <li><span>支持标签API的资源类型</span></li>
+ </ul>
+<!-- 顶部搜索 -->
+<div class="help-body-box-header-search">
+<!-- add by fangzj -->
+<div class="change-type-button">
+<div class="choose-text change-type-button-text">
+<span>搜本产品</span>
+<i class="dbl-icon-base dbl-icon-base-xiajiantou"></i>
+</div>
+<div class="choose-text change-type-button-else">
+<span>搜全站</span>
+</div>
+</div>
+<input type="text" class="help-body-box-header-search-input" id="J_HelpBodyBoxHeaderSearch" placeholder="请输入关键词" />
+<ul class="tip"></ul>
+<i class="icon-search-white" data-spm-click="gostr=/aliyun;locaid=search101"></i>
+</div>
+</div>
+<div class="help-body-box-detail-title">
+<h1>支持标签API的资源类型</h1>
+<div class="help-body-box-detail-title-others">
+ <p class="helper-update">更新时间：2021-02-08 16:44</p>
+<div class="helper-ribbon ribbon" data-spm="7">
+<!-- github编辑链接 -->
+ <!-- 下载链接 -->
+ <a class="ribbon-btn share-btn " title="分享本文档" data-tooltip-content="#helper-sharelist">
+<i class="ribbon-btn-icon icon-custom-share"></i>
+</a>
+<a class="ribbon-btn favorite-btn" data-spm-protocol="i" title="收藏本文档">
+<i class="ribbon-btn-icon icon-custom-star"></i>
+</a>
+<span class="helper-ribbon-space"></span>
+<a class="favorite-btn" href="/my_favorites.html" target="_blank">
+<span>我的收藏</span>
+</a>
+<div id="helper-sharelist"><a class="weibo-btn" data-spm-protocol="i" target="_blank" href="http://service.weibo.com/share/share.php?title=推荐一篇阿里云文档《支持标签API的资源类型》（来自 阿里云文档 - 资源管理）&url=http://help.aliyun.com/document_detail/172061.html"
+title="分享本文档到微博">
+<i class="ribbon-btn-icon dbl-icon-base-sina"></i>新浪微博
+</a><a class="weixin-btn" href="javascript:void(0);" data-tooltip-content="#tooltip_content">
+<i class="ribbon-btn-icon dbl-icon-base-weixin"></i>微信
+</a><a class="dingtalk-btn" href="javascript:void(0);" data-tooltip-content="#tooltip_content">
+<i class="ribbon-btn-icon icon-custom-dingtalk"></i>钉钉
+</a>
+</div>
+</div>
+</div>
+</div>
+<!--导读目录 -->
+<!--<div class="help-category-box">-->
+<div class="help-category-expand">
+<div class="help-category-expand-right">
+<div class="help-category-expand-title">
+<a href="javascript:void(0)">本页目录</a>
+</div>
+<div class="help-category-expand-content">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<!-- 文档正文 -->
+ <div class="markdown-body">
+<div lang="zh-CN" class="icms-help-docs-content">
+
+      <main role="main">
+         <article role="article" aria-labelledby="title_ypi_e5q_0et">
+            
+            <div class="body conbody" id="conbody-rgw-vzy-b3u">
+               <p class="shortdesc">本文为您提供标签API支持的资源类型和对应ARN示例。</p>
+               <p class="p" id="p-84j-fht-e6e">资源ARN的格式为arn:acs:${Service}:${Region}:${Account}:${ResourceType}/${ResourceId}。各字段含义如下：</p>
+               <ul class="ul" id="ul-jm7-tgi-iz9">
+                  <li class="li" id="li-obf-9mh-uup">Service：云服务code。</li>
+                  <li class="li" id="li-wog-53e-z9z">Region：地域ID。
+                     <div class="note note note-note" id="note-57h-xde-buz">
+                        <div class="note-icon-wrapper"><i class="icon-note note"></i></div>
+                        <div class="note-content"><strong>说明</strong> 支持使用星号（*）表示当前地域。
+                        </div>
+                     </div>
+                  </li>
+                  <li class="li" id="li-hqt-d42-tml">Account：阿里云账号ID。
+                     <div class="note note note-note" id="note-17p-rb9-yz2">
+                        <div class="note-icon-wrapper"><i class="icon-note note"></i></div>
+                        <div class="note-content"><strong>说明</strong> 支持使用星号（*）表示当前登录的阿里云账号。
+                        </div>
+                     </div>
+                  </li>
+                  <li class="li" id="li-pv4-0l0-0l1">ResourceType：资源类型。</li>
+                  <li class="li" id="li-xmc-42j-sij">ResourceId：资源ID。</li>
+               </ul>
+               <section class="section" id="section-nph-75m-ffd">
+                  <h2 class="title sectiontitle" id="title-q22-kas-ids">云服务器ECS</h2>
+                  <table class="table" id="table-s1u-f8c-tqi">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-iws-xe6-r3k">
+                        <tr id="row-5he-k0n-96g">
+                           <th class="entry" id="concept-2546410-entry-w6l-mcm-kq7">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-27d-70a-9yr">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-72g-2i3-5j7">
+                        <tr id="row-wk4-6ft-yiz">
+                           <td class="entry" id="entry-86q-abd-oy7">ALIYUN::ECS::INSTANCE</td>
+                           <td class="entry" id="entry-j34-vp8-cll">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:instance/i-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-zdj-erx-nda">
+                           <td class="entry" id="entry-wb6-w8f-jux">ALIYUN::ECS::DISK</td>
+                           <td class="entry" id="entry-a6t-as5-eee">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:disk/d-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-kz0-rgw-5s8">
+                           <td class="entry" id="entry-d18-13n-29h">ALIYUN::ECS::SNAPSHOT</td>
+                           <td class="entry" id="entry-jtu-1rt-qam">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:snapshot/s-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-nug-00u-qa6">
+                           <td class="entry" id="entry-b45-qha-ozh">ALIYUN::ECS::IMAGE</td>
+                           <td class="entry" id="entry-rdi-p01-86v">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:image/i-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-fl8-wq9-17p">
+                           <td class="entry" id="entry-hj3-ek1-1gn">ALIYUN::ECS::SECURITYGROUP</td>
+                           <td class="entry" id="entry-qsr-f27-htu">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:securitygroup/sg-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-7cu-d71-avj">
+                           <td class="entry" id="entry-3lg-nt4-tfc">ALIYUN::ECS::VOLUME</td>
+                           <td class="entry" id="entry-16p-t5v-i2h">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:volume/v-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-vl2-ezm-ey2">
+                           <td class="entry" id="entry-bil-if8-9vg">ALIYUN::ECS::ENI</td>
+                           <td class="entry" id="entry-nxm-vy4-q3k">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:eni/eni-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-bha-cve-6j0">
+                           <td class="entry" id="entry-mbj-zt7-9cg">ALIYUN::ECS::DDH</td>
+                           <td class="entry" id="entry-nw2-v38-eum">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:ddh/dh-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-523-76y-nml">
+                           <td class="entry" id="entry-s7e-nhb-wgo">ALIYUN::ECS::KEYPAIR</td>
+                           <td class="entry" id="entry-vl4-x7g-soz">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:keypair/keypairName</td>
+                        </tr>
+                        <tr id="row-jo0-1mj-yq7">
+                           <td class="entry" id="entry-pkf-wst-qo4">ALIYUN::ECS::LAUNCHTEMPLATE</td>
+                           <td class="entry" id="entry-b5b-lq7-nza">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:launchtemplate/lt-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-307-uid-3um">
+                           <td class="entry" id="entry-ai2-w24-26z">ALIYUN::ECS::SNAPSHOTPOLICY</td>
+                           <td class="entry" id="entry-nk8-2ny-afp">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:snapshotpolicy/sp-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-3o5-5uc-1tg">
+                           <td class="entry" id="entry-1ac-9h2-wol">ALIYUN::ECS::DDHCLUSTER</td>
+                           <td class="entry" id="entry-12q-87g-mj8">arn:acs:ecs:cn-hangzhou:123456789xxxxxxx:ddhcluster/dc-xxxxxxxxxxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-qrr-r0y-sib">
+                  <h2 class="title sectiontitle" id="title-f99-u9x-ft4">专有网络VPC</h2>
+                  <table class="table" id="table-5ut-wkv-fp7">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-z3w-b8n-apr">
+                        <tr id="row-16l-qfd-o9o">
+                           <th class="entry" id="concept-2546410-entry-a09-ed0-dsy">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-pbj-bqc-mu1">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-ue8-47k-d85">
+                        <tr id="row-atl-8hp-7uc">
+                           <td class="entry" id="entry-0y4-vf8-hl9">ALIYUN::VPC::VPC</td>
+                           <td class="entry" id="entry-o69-7zb-2eu">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:vpc/vpc-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-uca-xo1-kj4">
+                           <td class="entry" id="entry-71w-1kp-kzt">ALIYUN::VPC::VSWTICH</td>
+                           <td class="entry" id="entry-54i-lu8-qow">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:vswitch/vsw-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-cdm-cuc-n9u">
+                           <td class="entry" id="entry-pbb-cei-k1s">ALIYUN::VPC::ROUTETABLE</td>
+                           <td class="entry" id="entry-m83-mwz-cxz">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:routetable/vtb-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-wm9-q9v-jh5">
+                           <td class="entry" id="entry-flg-eai-sxi">ALIYUN::VPC::EIP</td>
+                           <td class="entry" id="entry-731-zv4-r5v">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:eip/eip-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-uz4-pj0-r24">
+                           <td class="entry" id="entry-oav-v90-pbc">ALIYUN::VPC::COMMONBANDWIDTHPACKAGE</td>
+                           <td class="entry" id="entry-9gk-79d-xev">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:commonbandwidthpackage/cbwp-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-pz5-cy8-hwu">
+                           <td class="entry" id="entry-xz5-9d6-1hb">ALIYUN::VPC::NATGATEWAY</td>
+                           <td class="entry" id="entry-5st-e3x-x8s">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:natgateway/ngw-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-v6j-2fc-xb9">
+                           <td class="entry" id="entry-fpn-22e-w1f">ALIYUN::VPC::IPV6GATEWAY</td>
+                           <td class="entry" id="entry-2os-eqo-nev">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:ipv6gateway/xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-hfz-brf-8yz">
+                           <td class="entry" id="entry-b6p-i4a-2ip">ALIYUN::VPC::IPV6INSTANCE</td>
+                           <td class="entry" id="entry-mzt-u93-f6y">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:ipv6instance/xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-icn-p88-czt">
+                           <td class="entry" id="entry-364-16y-lsy">ALIYUN::VPC::VPNGATEWAY</td>
+                           <td class="entry" id="entry-a1t-jda-365">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:vpngateway/xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-c93-s9c-r7j">
+                           <td class="entry" id="entry-nti-4pd-r9t">ALIYUN::VPC::IPV6BANDWIDTH</td>
+                           <td class="entry" id="entry-pbs-ruv-09p">arn:acs:vpc:cn-hangzhou:123456789xxxxxxx:ipv6bandwidth/xxxxxxxxxxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-3h9-xu7-ekl">
+                  <h2 class="title sectiontitle" id="title-2no-klf-mgr">负载均衡SLB</h2>
+                  <table class="table" id="table-1fo-4fi-wb6">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-0zk-9dm-rcl">
+                        <tr id="row-ke4-7xl-6b5">
+                           <th class="entry" id="concept-2546410-entry-j05-i6u-9mm">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-q7z-b3x-gs8">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-ov1-ahc-k3t">
+                        <tr id="row-g1f-t3u-qhv">
+                           <td class="entry" id="entry-fap-1pr-krz">ALIYUN::SLB::INSTANCE</td>
+                           <td class="entry" id="entry-pi4-26u-xj3">arn:acs:slb:cn-hangzhou:123456789xxxxxxx:instance/lb-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-e8p-y7p-gvt">
+                           <td class="entry" id="entry-s9b-2t8-amq">ALIYUN::SLB::ACL</td>
+                           <td class="entry" id="entry-o7v-sqo-yje">arn:acs:slb:cn-hangzhou:123456789xxxxxxx:acl/acl-xxxxxxxxxxxxxx</td>
+                        </tr>
+                        <tr id="row-o66-eqi-kf7">
+                           <td class="entry" id="entry-6fg-0sn-0ks">ALIYUN::SLB::CERTIFICATE</td>
+                           <td class="entry" id="entry-9vv-ogi-85u">arn:acs:slb:cn-hangzhou:123456789xxxxxxx:certificate/xxxxxxxxxxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-hku-77a-td7">
+                  <h2 class="title sectiontitle" id="title-vw8-562-vq0">云数据库RDS</h2>
+                  <table class="table" id="table-taa-4ns-sea">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-7l9-xlt-6jw">
+                        <tr id="row-pre-gdt-t2v">
+                           <th class="entry" id="concept-2546410-entry-wxv-qvq-c83">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-vw5-e88-ibx">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-ao6-760-c06">
+                        <tr id="row-gd9-45a-ae3">
+                           <td class="entry" id="entry-51p-inu-v2m">ALIYUN::RDS::INSTANCE</td>
+                           <td class="entry" id="entry-yi6-38d-4az">arn:acs:rds:cn-hangzhou:123456789xxxxxxx:instance/rm-xxxxxxxxxxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-km8-kb7-5mu">
+                  <h2 class="title sectiontitle" id="title-p0e-e70-yok">API网关</h2>
+                  <table class="table" id="table-cvn-jg6-mny">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-bn9-o9o-rav">
+                        <tr id="row-a32-mcl-a7i">
+                           <th class="entry" id="concept-2546410-entry-9oa-zvj-w3b">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-jnm-d83-z67">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-9dy-27a-88f">
+                        <tr id="row-ipw-jyz-n1s">
+                           <td class="entry" id="entry-yk1-7lt-vl7">ALIYUN::APIGATEWAY::APP</td>
+                           <td class="entry" id="entry-vh7-52m-wpt">arn:acs:apigateway:cn-hangzhou:123456789xxxxxxx:app/110599205xx</td>
+                        </tr>
+                        <tr id="row-qkq-6s2-whj">
+                           <td class="entry" id="entry-ej2-942-olm">ALIYUN::APIGATEWAY::APIGROUP</td>
+                           <td class="entry" id="entry-t4c-bnn-2ek">arn:acs:apigateway:cn-hangzhou:123456789xxxxxxx:apigroup/ea599205xx</td>
+                        </tr>
+                        <tr id="row-m66-2if-q45">
+                           <td class="entry" id="entry-5hd-9e2-vvo">ALIYUN::APIGATEWAY::PLUGIN</td>
+                           <td class="entry" id="entry-vub-wqs-uzg">arn:acs:apigateway:cn-hangzhou:123456789xxxxxxx:plugin/11270d534xxxx</td>
+                        </tr>
+                        <tr id="row-tbz-edk-sup">
+                           <td class="entry" id="entry-wj7-wjw-r3f">ALIYUN::APIGATEWAY::INSTANCE</td>
+                           <td class="entry" id="entry-5wd-6sl-ow4">arn:acs:apigateway:cn-hangzhou:123456789xxxxxxx:instance/apigateway-cn-xx</td>
+                        </tr>
+                        <tr id="row-dfq-3ki-s8x">
+                           <td class="entry" id="entry-xg8-xy6-7dm">ALIYUN::APIGATEWAY::API</td>
+                           <td class="entry" id="entry-ow4-lzg-ld6">arn:acs:apigateway:cn-hangzhou:123456789xxxxxxx:api/110599205xx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-vnh-cil-izo">
+                  <h2 class="title sectiontitle" id="title-7q6-ccc-jm2">消息队列Kafka版</h2>
+                  <table class="table" id="table-hqq-ynv-ozs">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-rec-j6d-c1h">
+                        <tr id="row-2nr-5xp-lw4">
+                           <th class="entry" id="concept-2546410-entry-imm-z7p-azg">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-78n-dma-qiy">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-oby-xws-vnf">
+                        <tr id="row-seu-pae-x42">
+                           <td class="entry" id="entry-c3u-37q-byu">ALIYUN::ALIKAFKA::INSTANCE</td>
+                           <td class="entry" id="entry-26m-aam-qlr">arn:acs:alikafka:cn-hangzhou:123456789xxxxxxx:instance/xxxxx</td>
+                        </tr>
+                        <tr id="row-j57-dou-tri">
+                           <td class="entry" id="entry-dt8-dtz-fht">ALIYUN::ALIKAFKA::TOPIC</td>
+                           <td class="entry" id="entry-046-jsh-nii">arn:acs:alikafka:cn-hangzhou:123456789xxxxxxx:topic/xxxxx</td>
+                        </tr>
+                        <tr id="row-27h-tst-xe8">
+                           <td class="entry" id="entry-l04-mq8-zvv">ALIYUN::ALIKAFKA::CONSUMERGROUP</td>
+                           <td class="entry" id="entry-8br-6qi-1d7">arn:acs:alikafka:cn-hangzhou:123456789xxxxxxx:consumergroup/xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-q03-eqj-15g">
+                  <h2 class="title sectiontitle" id="title-19n-iyf-ehz">资源编排ROS</h2>
+                  <table class="table" id="table-azz-70b-snp">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ra4-vig-im3">
+                        <tr id="row-sf8-rg4-qs5">
+                           <th class="entry" id="concept-2546410-entry-azj-wo2-p9d">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-ka2-t85-7sb">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-a3e-7ww-1mq">
+                        <tr id="row-zrk-6of-4rq">
+                           <td class="entry" id="entry-8y6-0hs-n8x">ALIYUN::ROS::STACK</td>
+                           <td class="entry" id="entry-vb8-trs-ap0">arn:acs:ros:cn-hangzhou:123456789xxxxxxx:stack/xxxxxx</td>
+                        </tr>
+                        <tr id="row-in0-crg-khs">
+                           <td class="entry" id="entry-cqx-ua9-yet">ALIYUN::ROS::TEMPLATE</td>
+                           <td class="entry" id="entry-1r8-5fs-w7u">arn:acs:ros:cn-hangzhou:123456789xxxxxxx:template/xxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-uqw-4s0-ptb">
+                  <h2 class="title sectiontitle" id="title-bov-pyv-0pb">云解析DNS</h2>
+                  <table class="table" id="table-qy2-oet-qcn">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-4og-h74-5cd">
+                        <tr id="row-l63-vyq-mhl">
+                           <th class="entry" id="concept-2546410-entry-7tp-vbt-6xi">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-mf7-mbg-p9y">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-syb-7pd-42f">
+                        <tr id="row-iwd-5i3-mwx">
+                           <td class="entry" id="entry-crs-7bi-lax">ALIYUN::ALIDNS::DOMAIN</td>
+                           <td class="entry" id="entry-c6x-ly4-ddf">arn:acs:alidns:cn-hangzhou:123456789xxxxxxx:domain/xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-u7q-8ef-vt2">
+                  <h2 class="title sectiontitle" id="title-iob-ho7-4yn">弹性伸缩</h2>
+                  <table class="table" id="table-5ns-zkl-6o2">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-cpk-zro-wfy">
+                        <tr id="row-lil-yd0-opb">
+                           <th class="entry" id="concept-2546410-entry-hl5-0nc-ba7">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-3d1-inh-45g">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-82j-8cb-o2b">
+                        <tr id="row-blp-rzh-be5">
+                           <td class="entry" id="entry-rbt-xe0-i1z">ALIYUN::ESS::SCALINGGROUP</td>
+                           <td class="entry" id="entry-7bh-f7v-tef">arn:acs:ess:cn-hangzhou:123456789xxxxxxx:scalinggroup/asg-xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-f1v-bb8-lph">
+                  <h2 class="title sectiontitle" id="title-wfk-tif-012">服务器迁移中心SMC</h2>
+                  <table class="table" id="table-tfb-f1p-abp">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-p7e-tlj-cll">
+                        <tr id="row-ol8-11x-bsq">
+                           <th class="entry" id="concept-2546410-entry-40f-xbw-zdt">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-wv1-f5d-fvm">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-ps0-ruh-8f2">
+                        <tr id="row-28c-c2b-775">
+                           <td class="entry" id="entry-fox-yw2-f28">ALIYUN::SMC::SOURCESERVER</td>
+                           <td class="entry" id="entry-rh1-1ox-15k">arn:acs:smc:cn-hangzhou:123456789xxxxxxx:sourceserver/s-xxxx</td>
+                        </tr>
+                        <tr id="row-c9k-0bn-kow">
+                           <td class="entry" id="entry-oxc-2wm-06u">ALIYUN::SMC::REPLICATIONJOB</td>
+                           <td class="entry" id="entry-b7w-30t-p5g">arn:acs:smc:cn-hangzhou:123456789xxxxxxx:replicationjob/j-xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-jww-ei4-i45">
+                  <h2 class="title sectiontitle" id="title-0vs-e2q-cnw">云数据库PolarDB</h2>
+                  <table class="table" id="table-0f6-lel-pfe">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-g70-odx-8ol">
+                        <tr id="row-451-3e8-c20">
+                           <th class="entry" id="concept-2546410-entry-x04-ivb-nh7">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-vky-fvi-96d">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-9d7-0xo-ngn">
+                        <tr id="row-cq8-32k-2a9">
+                           <td class="entry" id="entry-frp-zey-tjr">ALIYUN::POLARDB::CLUSTER</td>
+                           <td class="entry" id="entry-hih-zcl-szx">arn:acs:polardb:cn-hangzhou:123456789xxxxxxx:cluster/pc-bp1tt38xxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-k00-f9s-810">
+                  <h2 class="title sectiontitle" id="title-qcu-43d-kla">云数据库Redis</h2>
+                  <table class="table" id="table-ont-9vj-hto">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-fli-kpp-fns">
+                        <tr id="row-eom-6e3-opp">
+                           <th class="entry" id="concept-2546410-entry-ujx-ob2-qzh">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-gtk-ppf-3el">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-hn8-yqx-m57">
+                        <tr id="row-x3h-xus-3yf">
+                           <td class="entry" id="entry-1yz-5oy-2ar">ALIYUN::KVSTORE::INSTANCE</td>
+                           <td class="entry" id="entry-bwy-kcl-fh7">arn:acs:kvstore:cn-hangzhou:123456789xxxxxxx:instance/m-bp11fxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-gcz-v3q-5tz">
+                  <h2 class="title sectiontitle" id="title-a26-rbc-itx">云数据库MongoDB</h2>
+                  <table class="table" id="table-q42-8jh-3us">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-aoh-arr-04m">
+                        <tr id="row-303-x71-mav">
+                           <th class="entry" id="concept-2546410-entry-hsq-pj4-4eb">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-m88-mk2-ofp">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-k0q-4l4-gqh">
+                        <tr id="row-85b-lvj-htx">
+                           <td class="entry" id="entry-9v1-s7z-af0">ALIYUN::DDS::INSTANCE</td>
+                           <td class="entry" id="entry-ay6-zdi-0xg">arn:acs:dds:cn-hangzhou:123456789xxxxxxx:instance/dds-uf6ab1exxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-3r9-z6r-en4">
+                  <h2 class="title sectiontitle" id="title-k4j-a7w-2nu">SSL证书</h2>
+                  <table class="table" id="table-2x8-q4f-jtq">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-sup-isx-tct">
+                        <tr id="row-pp7-9xd-ip7">
+                           <th class="entry" id="concept-2546410-entry-sh7-8g7-29y">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-e1i-pfw-f64">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-c49-78r-hlt">
+                        <tr id="row-1ry-ncs-prs">
+                           <td class="entry" id="entry-r7q-mbu-iua">ALIYUN::CAS::INSTANCE</td>
+                           <td class="entry" id="entry-ydj-mwx-s82">arn:acs:cas:cn-hangzhou:123456789xxxxxxx:instance/cas-cn-oew1xxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-ofi-36r-qav">
+                  <h2 class="title sectiontitle" id="title-wke-ux1-95x">堡垒机</h2>
+                  <table class="table" id="table-jed-5xp-8p7">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-6cu-3vg-ef0">
+                        <tr id="row-e03-wdf-t0g">
+                           <th class="entry" id="concept-2546410-entry-352-i1t-za9">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-rht-4ki-v10">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-sbj-6hh-179">
+                        <tr id="row-hkm-tqd-izt">
+                           <td class="entry" id="entry-k73-cok-1al">ALIYUN::BASTIONHOST::INSTANCE</td>
+                           <td class="entry" id="entry-5hh-x65-1gi">arn:acs:bastionhost:cn-hangzhou:123456789xxxxxxx:instance/bastionhost-cn-0pxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-w3j-rjr-9c4">
+                  <h2 class="title sectiontitle" id="title-lmj-lmg-llf">阿里云Elasticsearch</h2>
+                  <table class="table" id="table-oyg-fi6-34b">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ce1-m6w-tdw">
+                        <tr id="row-cnr-6f6-45y">
+                           <th class="entry" id="concept-2546410-entry-0jd-ul3-wsm">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-2zz-vbl-6uk">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-qnh-c0x-voa">
+                        <tr id="row-e6w-axa-vbn">
+                           <td class="entry" id="entry-cp6-6yp-gi4">ALIYUN::ELASTICSEARCH::INSTANCE</td>
+                           <td class="entry" id="entry-bcf-8em-t8w">arn:acs:elasticsearch:cn-hangzhou:123456789xxxxxxx:instance/es-cn-4591mxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-f8c-g05-kya">
+                  <h2 class="title sectiontitle" id="title-7v2-mxj-6lb">对象存储OSS</h2>
+                  <table class="table" id="table-k46-gky-6b1">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-cdd-xea-b00">
+                        <tr id="row-g1c-7fr-pma">
+                           <th class="entry" id="concept-2546410-entry-mcn-8lt-vpb">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-ar2-q9i-gdv">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-6b9-uql-uzl">
+                        <tr id="row-nv7-py7-q72">
+                           <td class="entry" id="entry-9ia-md2-n60">ALIYUN::OSS::BUCKET</td>
+                           <td class="entry" id="entry-ryx-03h-hqm">arn:acs:oss:cn-hangzhou:123456789xxxxxxx:bucket/my-bucket-name-xxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-7ei-m6v-g1r">
+                  <h2 class="title sectiontitle" id="title-fws-kgd-m5r">DDoS高防（新BGP）</h2>
+                  <table class="table" id="table-fdu-gjy-zyr">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-mrg-lc9-kfl">
+                        <tr id="row-cy8-rsd-z7j">
+                           <th class="entry" id="concept-2546410-entry-uax-jkt-dn2">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-uil-8ko-qvq">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-boo-cr8-s26">
+                        <tr id="row-2dj-ghu-jwu">
+                           <td class="entry" id="entry-dgy-k0s-axb">ALIYUN::DDOSCOO::INSTANCE</td>
+                           <td class="entry" id="entry-thz-otn-lgu">arn:acs:ddoscoo:cn-shanghai:123456789xxxxxxx:instance/ddoscoo-cn-xxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-f0h-zrs-ysl">
+                  <h2 class="title sectiontitle" id="title-nj1-eis-cxl">DDoS原生防护基础版</h2>
+                  <table class="table" id="table-njh-xtx-2da">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-t5m-eie-6a7">
+                        <tr id="row-v0f-7ap-fhy">
+                           <th class="entry" id="concept-2546410-entry-rfe-vz1-lm4">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-ve8-r9j-2u3">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-cqx-ufb-ow5">
+                        <tr id="row-h44-zb8-y44">
+                           <td class="entry" id="entry-rra-p0u-fhz">ALIYUN::DDOSBGP::INSTANCE</td>
+                           <td class="entry" id="entry-j3d-g1p-w28">arn:acs:ddosbgp:cn-shanghai:123456789xxxxxxx:instance/ddosbgp-cn-xxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-g15-a36-6xe">
+                  <h2 class="title sectiontitle" id="title-zbj-gd7-uo6">分布式关系型数据库DRDS</h2>
+                  <table class="table" id="table-9lq-oae-11l">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ylp-b7k-oz1">
+                        <tr id="row-zpt-a0n-w30">
+                           <th class="entry" id="concept-2546410-entry-ihq-i91-htv">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-mrt-b94-nzi">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-j8m-79f-tio">
+                        <tr id="row-8fv-iy6-052">
+                           <td class="entry" id="entry-i8r-pvx-o93">ALIYUN::DRDS::INSTANCE</td>
+                           <td class="entry" id="entry-x7x-rjq-8n1">arn:acs:drds:cn-shanghai:123456789xxxxxxx:instance/drdsxxxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-wbc-ikt-rjz">
+                  <h2 class="title sectiontitle" id="title-edf-hms-b2b">云原生数据仓库AnalyticDB PostgreSQL版</h2>
+                  <table class="table" id="table-1c2-35o-slc">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-2sm-761-o19">
+                        <tr id="row-ba4-ivq-1hc">
+                           <th class="entry" id="concept-2546410-entry-r9c-2y8-b57">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-9ol-kph-l12">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-dl9-2sx-936">
+                        <tr id="row-4ra-34b-sgn">
+                           <td class="entry" id="entry-u2t-ifq-je1">ALIYUN::GPDB::INSTANCE</td>
+                           <td class="entry" id="entry-3do-0hj-2tf">arn:acs:gpdb:cn-shanghai:123456789xxxxxxx:instance/gp-xxxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-3hb-x00-50z">
+                  <h2 class="title sectiontitle" id="title-pok-woy-26z">云企业网</h2>
+                  <table class="table" id="table-26d-9n6-ttl">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-6hn-l99-gz7">
+                        <tr id="row-huq-vfr-z2j">
+                           <th class="entry" id="concept-2546410-entry-0aq-bwu-kzl">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-yhk-0qp-wxs">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-jm6-pyv-0hh">
+                        <tr id="row-327-hs4-y9l">
+                           <td class="entry" id="entry-fya-xgs-li7">ALIYUN::CEN::CEN</td>
+                           <td class="entry" id="entry-cdw-e0o-v81">arn:acs:cen:cn-shanghai:123456789xxxxxxx:cen/cen-xxxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" cond-props="china" id="section-nn1-o98-3hz">
+                  <h2 class="title sectiontitle" id="title-1fa-r55-qhd">区块链服务BaaS</h2>
+                  <table class="table" id="table-7jx-9as-aft">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-qlr-2ea-g59">
+                        <tr id="row-vmd-nc6-x98">
+                           <th class="entry" id="concept-2546410-entry-ynf-wlx-us4">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-3n9-yxy-itn">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-8wk-f5t-i2i">
+                        <tr id="row-txo-ho3-y4y">
+                           <td class="entry" id="entry-hqw-lnk-r13">ALIYUN::BAAS::ORGANIZATION</td>
+                           <td class="entry" id="entry-lma-w4a-wau">arn:acs:baas:cn-shanghai:123456789xxxxxxx:organization/peers-xxx-xxxxx </td>
+                        </tr>
+                        <tr id="row-kis-8m0-q2z">
+                           <td class="entry" id="entry-ymm-65k-u8c">ALIYUN::BAAS::CONSORTIUM</td>
+                           <td class="entry" id="entry-ern-3od-ar7">arn:acs:baas:cn-shanghai:123456789xxxxxxx:consortium/consortium-xx-xx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-ahu-3jp-dqd">
+                  <h2 class="title sectiontitle" id="title-sq5-ntm-kny">云原生数据仓库AnalyticDB MySQL版</h2>
+                  <table class="table" id="table-j1s-m0n-f1v">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-xfw-6lo-f2g">
+                        <tr id="row-nzj-wr0-iqq">
+                           <th class="entry" id="concept-2546410-entry-ro9-4ew-bwu">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-z7p-pco-e00">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-kfs-576-b3h">
+                        <tr id="row-sii-kiq-x4t">
+                           <td class="entry" id="entry-65o-ecf-d0r">ALIYUN::ADB::CLUSTER</td>
+                           <td class="entry" id="entry-jm6-t81-pjm">arn:acs:adb:cn-shanghai:123456789xxxxxxx:cluster/am-xxxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-khk-9nq-me8">
+                  <h2 class="title sectiontitle" id="title-dw9-c20-30w">云存储网关</h2>
+                  <table class="table" id="table-gwi-jxv-qkn">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-sn8-5bi-38r">
+                        <tr id="row-6sf-f67-5wz">
+                           <th class="entry" id="concept-2546410-entry-jjw-r9v-7kd">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-zdj-o6f-9dx">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-ty8-whp-jcg">
+                        <tr id="row-eun-0wh-82a">
+                           <td class="entry" id="entry-a5d-kv1-jbz">ALIYUN::HCS_SGW::GATEWAY</td>
+                           <td class="entry" id="entry-wu9-0x8-mqa">arn:acs:hcs_sgw:cn-shanghai:123456789xxxxxxx:gateway/gw-xxxxx </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-x0w-chn-soa">
+                  <h2 class="title sectiontitle" id="title-yif-xx2-aon">图像搜索</h2>
+                  <table class="table" id="table-ccn-8ha-9ad">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-9ws-3lw-vo3">
+                        <tr id="row-4az-e44-umi">
+                           <th class="entry" id="concept-2546410-entry-cem-dcy-6x7">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-3px-jlw-o44">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-7bu-kwt-9je">
+                        <tr id="row-h1n-06f-eus">
+                           <td class="entry" id="entry-puh-5j8-825">ALIYUN::IMAGESEARCH::INSTANCE</td>
+                           <td class="entry" id="entry-1p7-ake-zqm">arn:acs:imagesearch:cn-shanghai:123456789xxxxxxx:instance/xxx 
+                              <div class="note note note-note" id="note-d7w-hm5-gfd">
+                                 <div class="note-icon-wrapper"><i class="icon-note note"></i></div>
+                                 <div class="note-content"><strong>说明</strong> 最后一个字段（xxx）为图像搜索实例名称。
+                                 </div>
+                              </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-xl8-mls-pri">
+                  <h2 class="title sectiontitle" id="title-72g-0f7-ed7">CDN</h2>
+                  <table class="table" id="table-1uk-t5l-seo">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-8tw-tfv-67o">
+                        <tr id="row-ul3-vls-41g">
+                           <th class="entry" id="concept-2546410-entry-eiw-2wt-fh0">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-qil-bgc-pei">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-mur-kil-38v">
+                        <tr id="row-11r-eex-ao8">
+                           <td class="entry" id="entry-mnk-k53-83r">ALIYUN::CDN::DOMAIN</td>
+                           <td class="entry" id="entry-pcw-pz2-vnd">arn:acs:cdn:cn-hangzhou:123456789xxxxxxx:domain/aaaaa.xxxxexam.cn</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-hs2-u72-dkn">
+                  <h2 class="title sectiontitle" id="title-89v-h24-0l6">运维编排服务</h2>
+                  <table class="table" id="table-a6d-pmi-abz">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-4yu-hre-2gq">
+                        <tr id="row-1hs-p1p-7ba">
+                           <th class="entry" id="concept-2546410-entry-a65-eyo-dm8">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-3tl-xx9-1uj">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-11c-utu-zj3">
+                        <tr id="row-h6t-qmb-yzk">
+                           <td class="entry" id="entry-it7-cyk-uwz">ALIYUN::OOS::TEMPLATE</td>
+                           <td class="entry" id="entry-m0h-tyd-y9q">arn:acs:oos:cn-hangzhou:123456789xxxxxxx:template/template_name</td>
+                        </tr>
+                        <tr id="row-ifd-mb7-vxd">
+                           <td class="entry" id="entry-79g-59p-d2c">ALIYUN::OOS::EXECUTION</td>
+                           <td class="entry" id="entry-nvq-t42-2rx">arn:acs:oos:cn-hangzhou:123456789xxxxxxx:execution/exec-xxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-4kr-9z3-2xw">
+                  <h2 class="title sectiontitle" id="title-vcc-z8q-ioj">云数据库HBase</h2>
+                  <table class="table" id="table-s64-qj3-td8">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-jfz-hqr-0si">
+                        <tr id="row-7l1-ta5-4yp">
+                           <th class="entry" id="concept-2546410-entry-tjs-28y-30n">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-e4h-kly-zzt">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-zyl-x7i-l6c">
+                        <tr id="row-kzq-o1r-ude">
+                           <td class="entry" id="entry-pzt-v4h-1ws">ALIYUN::MULTIMOD::CLUSTER</td>
+                           <td class="entry" id="entry-7v7-lei-vtq">arn:acs:multimod:cn-zhangjiakou:123456789xxxxxxx:cluster/hb-8vxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" cond-props="china" id="section-ne4-aoy-5uc">
+                  <h2 class="title sectiontitle" id="title-8qe-k7u-550">数据库审计</h2>
+                  <table class="table" id="table-tzq-ymr-3ry">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ths-rec-mkm">
+                        <tr id="row-iiv-isu-eao">
+                           <th class="entry" id="concept-2546410-entry-em3-l1f-o98">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-x18-9or-6es">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-2m2-sf3-wbk">
+                        <tr id="row-5ra-ulm-sdo">
+                           <td class="entry" id="entry-rax-sf1-ram">ALIYUN::DBAUDIT::INSTANCE</td>
+                           <td class="entry" id="entry-8wk-efu-r3o">arn:acs:dbaudit:cn-hangzhou:123456789xxxxxxx:instance/dbaudit-cn-xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-ss6-j7v-8ei">
+                  <h2 class="title sectiontitle" id="title-cy2-82j-j7j">文件存储NAS</h2>
+                  <table class="table" id="table-8u3-upl-9my">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ms4-y7g-1ob">
+                        <tr id="row-x1o-tia-m6d">
+                           <th class="entry" id="concept-2546410-entry-dh0-591-cwe">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-wj8-he6-a1d">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-k3c-h0k-meu">
+                        <tr id="row-bwx-n93-4qa">
+                           <td class="entry" id="entry-cjw-tin-4qf">ALIYUN::NAS::FILESYSTEM</td>
+                           <td class="entry" id="entry-nqz-tfh-qzo">arn:acs:nas:cn-hangzhou::123456789xxxxxxx:filesystem/1993fc4xxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-vxe-f27-g95">
+                  <h2 class="title sectiontitle" id="title-3mj-unu-ug0">E-MapReduce</h2>
+                  <table class="table" id="table-gls-3a6-4en">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-hup-q69-9t3">
+                        <tr id="row-cup-gqy-z0h">
+                           <th class="entry" id="concept-2546410-entry-cxi-prq-tp4">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-lmp-tbo-cli">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-1jf-y4j-o2r">
+                        <tr id="row-a7m-qu6-6tg">
+                           <td class="entry" id="entry-6kb-chy-jr0">ALIYUN::EMR::CLUSTER</td>
+                           <td class="entry" id="entry-3b4-x1i-ezc">arn:acs:emr:cn-hangzhou::123456789xxxxxxx:cluster/C-157A0610Cxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-cck-hlu-79h">
+                  <h2 class="title sectiontitle" id="title-dnh-4e3-24y">消息队列RocketMQ版</h2>
+                  <table class="table" id="table-spd-ala-sgz">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-k31-ew0-zl9">
+                        <tr id="row-c49-xbu-y63">
+                           <th class="entry" id="concept-2546410-entry-ir5-zwa-xti">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-ks5-rph-s8f">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-q4l-6d7-blx">
+                        <tr id="row-iqy-t0e-r91">
+                           <td class="entry" id="entry-yl6-bzs-mlz">ALIYUN::MQ::INSTANCE</td>
+                           <td class="entry" id="entry-i4v-wgx-iad">arn:acs:mq:cn-hangzhou::123456789xxxxxxx:instance/MQ_INST_18eexxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-zbt-fyz-1ei">
+                  <h2 class="title sectiontitle" id="title-2g7-5xk-gsd">数据传输服务DTS</h2>
+                  <table class="table" id="table-ijp-ol5-sa1">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-ft7-kxm-8of">
+                        <tr id="row-g51-k3l-47k">
+                           <th class="entry" id="concept-2546410-entry-1lq-7t1-2zr">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-h25-p3u-ai4">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-apw-fy2-g23">
+                        <tr id="row-62b-9ah-jbe">
+                           <td class="entry" id="entry-ji8-seu-4om">ALIYUN::DTS::INSTANCE</td>
+                           <td class="entry" id="entry-j60-eax-zcv">arn:acs:dts:cn-hangzhou::123456789xxxxxxx:instance/dtsez811qhcxxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-u24-s7q-4sv">
+                  <h2 class="title sectiontitle" id="title-g9t-kh9-yd9">视频点播</h2>
+                  <table class="table" id="table-wjw-rbt-hmi">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-hi4-m3y-tut">
+                        <tr id="row-ssd-dhm-jms">
+                           <th class="entry" id="concept-2546410-entry-gdq-owq-azd">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-c3h-dqo-0sb">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-gxq-8h0-una">
+                        <tr id="row-n9k-p78-0n6">
+                           <td class="entry" id="entry-h26-tnz-xqk">ALIYUN::VOD::DOMAIN</td>
+                           <td class="entry" id="entry-616-x98-5s0">arn:acs:vod:cn-shanghai::123456789xxxxxxx:domain/testxxxx.taobao.com</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" cond-props="china" id="section-p0o-ul2-0x0">
+                  <h2 class="title sectiontitle" id="title-df8-ghw-m3t">漏洞扫描</h2>
+                  <table class="table" id="table-wr0-ht1-6qg">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-qh7-7q1-ps8">
+                        <tr id="row-k5h-gr4-53z">
+                           <th class="entry" id="concept-2546410-entry-rch-oyg-2xj">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-9vi-wbl-rwl">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-qem-xs2-bgo">
+                        <tr id="row-rbp-3bd-25o">
+                           <td class="entry" id="entry-mxw-ouq-mjp">ALIYUN::AVDS::ASSETS</td>
+                           <td class="entry" id="entry-3kv-u61-rf3">arn:acs:avds:cn-shanghai::123456789xxxxxxx:assets/testxxxx.taobao.com</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-cn9-qx9-280">
+                  <h2 class="title sectiontitle" id="title-9ua-5i6-mhk">全站加速</h2>
+                  <table class="table" id="table-7bv-c9o-oem">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-bt5-daj-64v">
+                        <tr id="row-h6x-ppp-u5y">
+                           <th class="entry" id="concept-2546410-entry-ry3-796-mns">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-urf-oi3-exk">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-f78-scg-qal">
+                        <tr id="row-dto-1xq-7vw">
+                           <td class="entry" id="entry-bin-711-9zu">ALIYUN::DCDN::DOMAIN</td>
+                           <td class="entry" id="entry-ygd-q8v-0b6">arn:acs:dcdn:cn-hangzhou::123456789xxxxxxx:domain/testxxxx.taobao.com</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-gfg-6sn-6io">
+                  <h2 class="title sectiontitle" id="title-3l8-3so-7i9">实时计算Flink版</h2>
+                  <table class="table" id="table-y3a-uaj-ps1">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-q0r-9u4-m4v">
+                        <tr id="row-mu9-jc1-vah">
+                           <th class="entry" id="concept-2546410-entry-jri-7va-cqs">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-qqt-8ra-5ns">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-o3p-wh4-b7u">
+                        <tr id="row-98k-0bo-7wg">
+                           <td class="entry" id="entry-544-haw-9l6">ALIYUN::SCBLINKONECS::CLUSTER</td>
+                           <td class="entry" id="entry-ab7-0f5-m3p">arn:acs:scblinkonecs:cn-hangzhou::123456789xxxxxxx:cluster/blinkonecs_post-cn-st21xxxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-xi0-9g9-ypu">
+                  <h2 class="title sectiontitle" id="title-9h3-co9-czq">容器服务Kubernetes版</h2>
+                  <table class="table" id="table-5sl-ddv-k7u">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-vlg-uk1-jbr">
+                        <tr id="row-p38-brc-qgn">
+                           <th class="entry" id="concept-2546410-entry-mif-zrt-pqv">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-68r-71l-w9t">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-p2q-6lo-kh6">
+                        <tr id="row-if4-5kk-f7f">
+                           <td class="entry" id="entry-zsf-0mk-g93">ALIYUN::CS::CLUSTER</td>
+                           <td class="entry" id="entry-7fl-zt1-ui1">arn:acs:cs:cn-hangzhou:123456789xxxxxxx:cluster/cc5b5364662424e3ba2xxxx</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+               <section class="section" id="section-1pj-7pk-p72">
+                  <h2 class="title sectiontitle" id="title-bp8-kh6-bsg">函数计算</h2>
+                  <table class="table" id="table-8mo-j0t-zu7">
+                     <caption></caption>
+                     <colgroup>
+                        <col style="width:33.33333333333333%">
+                        <col style="width:66.66666666666666%">
+                     </colgroup>
+                     <thead class="thead" id="thead-omk-co9-wq5">
+                        <tr id="row-q44-gmt-ivg">
+                           <th class="entry" id="concept-2546410-entry-qm5-2b2-10s">资源类型</th>
+                           <th class="entry" id="concept-2546410-entry-aus-sbj-ygs">ARN示例</th>
+                        </tr>
+                     </thead>
+                     <tbody class="tbody" id="tbody-xup-yv8-52l">
+                        <tr id="row-uct-87q-pt6">
+                           <td class="entry" id="entry-7gh-3co-w82">ALIYUN::FC::SERVICE</td>
+                           <td class="entry" id="entry-tdp-ifs-toz">arn:acs:fc:cn-hangzhou:123456789xxxxxxx:service/test</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </article>
+      </main>
+   
+
+
+</div>
+</div>
+
+<!-- 上一篇、下一篇 -->
+<div class="help-detail-page-turner">
+<!-- 上一篇、下一篇 placeholder -->
+<div id="doc-last-page" class="last-page" style="visibility: hidden;">
+<a id="doc-last-page-link" href="">
+<i class="dbl-icon-base dbl-icon-base-arrow-left"></i>
+<span class="last-page-btn">上一篇：<span id="doc-last-page-title" class="last-page-title"></span></span>
+</a>
+</div>
+<div id="doc-next-page" class="next-page" style="visibility: hidden;">
+<a id="doc-next-page-link" href="">
+<span class="next-page-btn">下一篇：<span id="doc-next-page-title" class="next-page-title"></span></span>
+<i class="dbl-icon-base dbl-icon-base-arrow-right"></i>
+</a>
+</div>
+</div>
+<!-- 推荐文档 Start -->
+<div class="recommendation-area">
+<!-- 推荐文档 placeholder -->
+<!-- 需前端动态生成 -->
+</div>
+<div class="recommendation-area-fixed"></div>
+<!-- 推荐文档 End -->
+<!-- 底部快捷操作 Start -->
+<div class="ribbon">
+<a class="ribbon-btn weibo-btn" target="_blank"
+href="http://service.weibo.com/share/share.php?title=推荐一篇阿里云文档《支持标签API的资源类型》（来自 阿里云文档 - 资源管理）&url=http://help.aliyun.com/document_detail/172061.html"
+title="分享本文档到微博">
+<i class="ribbon-btn-icon dbl-icon-base-sina"></i>
+</a>
+<a class="ribbon-btn weixin-btn" href="javascript:void(0);" data-tooltip-content="#tooltip_content">
+<i class="ribbon-btn-icon dbl-icon-base-weixin"></i>
+</a>
+<a class="ribbon-btn dingtalk-btn" href="javascript:void(0);" data-tooltip-content="#tooltip_content">
+<i class="ribbon-btn-icon icon-custom-dingtalk"></i>
+</a>
+<a class="ribbon-btn favorite-btn" title="收藏本文档">
+<i class="ribbon-btn-icon dbl-icon-base-wujiaoxing"></i>
+</a>
+</div>
+<!-- 底部快捷操作 End -->
+<div class="tooltip_templates" style="display: none;">
+<div id="tooltip_content" style="width: 130px;height: 130px;">
+</div>
+</div>
+<!-- 文档评论反馈 Start -->
+<div class="help-detail-feedback-wrapper">
+<div class="help-detail-raty-area">
+<span class="help-detail-raty-tip">以上内容是否对您有帮助？</span>
+<div class="help-detail-raty"></div>
+</div>
+<div class="help-detail-comment-area">
+<p style="color: #777F84;">在文档使用中是否遇到以下问题</p>
+<ul class="help-detail-problem-list">
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="1" />内容错误
+</div>
+</li>
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="2" />更新不及时
+</div>
+</li>
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="4" />链接错误
+</div>
+</li>
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="8" />缺少代码/图片示例
+</div>
+</li>
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="16" />太简单/步骤待完善
+</div>
+</li>
+<li data-less-show="true">
+<div>
+<input type="checkbox" value="32" />其他
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="1" />内容错误
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="2" />更新不及时
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="4" />链接错误
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="8" />缺少代码/图片示例
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="16" />太简单/步骤待完善
+</div>
+</li>
+<li data-less-show="false">
+<div>
+<input type="checkbox" value="32" />其他
+</div>
+</li>
+</ul>
+<div class="textarea-wrapper">
+<p style="color: #777F84;">更多建议</p>
+<textarea placeholder="请详细描述在文档使用中遇到的问题或改进建议"></textarea>
+<button class="help-detail-submit dn-btn dn-btn-primary" disabled>提交建议</button>
+<input class="anonymous-check-box" type="checkbox" checked>匿名提交
+</div>
+</div>
+<div class="help-detail-tip-area">
+<span>感谢您的打分，是否有意见建议想告诉我们？</span>
+<button class="help-detail-comment dn-btn dn-btn-primary">提交建议</button>
+</div>
+<div class="help-detail-success-tip-area">
+<i class="dbl-icon-base-right"></i>感谢您的反馈，反馈我们已经收到
+</div>
+</div>
+<!-- 文档评论反馈 Start -->
+<input name='_tb_token_' type='hidden' value=''>
+</div>
+<div class="doc-feedback">
+<div class="wid-fixed">
+<div class="wid-feedback-icon"><i class='icon-img'></i></div>
+<span class="feedback-text">文档反馈</span>
+</div>
+<div id="wid-feedback-inner" style="display: none"></div>
+<div class="feedback-tips" style="display: none">
+<div class="feedback-tips-icon"><i class='icon-img'></i></div>
+<div class="feedback-tips-txt">
+<div class="feedback-tips-title">鼠标选中内容,快速选择问题</div>
+<div class="feedback-tips-text">选中存在疑惑的文档内容，即可生成截图进行反馈，我们会跟进处理。</div>
+<div class="feedback-tips-bt">
+<a href="javascript:;" class="J-guideKnown">好的，知道了</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="select-widFeedback" style="position: absolute; z-index: 3; display: none;">
+<div class="select-widFeedback-icon"></div>
+<div class="select-widFeedback-text">文档反馈</div>
+</div>
+</div>
+<script>
+window.detail = true;
+window.HELP_NODE_ID = '172061';
+window.HELP_NODE_TYPE = '1';
+window.help = { "action": "fqa" };
+window.openSearch = {
+queryScope: "94362_all",
+isDisplayAll: false,
+isEnglish: "no",
+source: "entconsole",
+type: "doc",
+knowledgeId: "172061"
+};
+window.api = {
+"title": "支持标签API的资源类型",
+"productAlias": "entconsole",
+"documentAlias": "the-arn-of-the-resource-type-"
+};
+window.whitelistNodeIdList = [];
+initPageJump();
+function initPageJump() {
+var liList = document.querySelectorAll('.help-body #J_MenuListContainer li');
+var pre, next, current;
+for (var i = 0; i < liList.length; i++) {
+var li = liList[i];
+var nodeId = li.getAttribute('data-node-id');
+var nodeType = li.getAttribute("data-node-type");
+var showType = li.getAttribute("data-show-type");
+var isDocList = nodeType === '8' && showType !== '1';
+var isDoc = nodeType !== '8' || isDocList;
+if (nodeId === window.HELP_NODE_ID || li.classList.contains("action")) {
+current = li;
+continue;
+}
+if (!current && isDoc) {
+pre = li;
+}
+if (current && isDoc) {
+next = li;
+break;
+}
+}
+if (current && pre) {
+document.getElementById("doc-last-page-link").setAttribute('href', getPath(pre) + pre.getAttribute('data-node-id') + '.html');
+document.getElementById("doc-last-page-title").innerText = pre.innerText.trim();
+document.getElementById("doc-last-page").style.visibility = 'visible';
+}
+if (current && next) {
+document.getElementById("doc-next-page-link").setAttribute('href', getPath(next) + next.getAttribute('data-node-id') + '.html');
+document.getElementById("doc-next-page-title").innerText = next.innerText.trim();
+document.getElementById("doc-next-page").style.visibility = 'visible';
+}
+if (!current || (!pre && !next)) {
+document.getElementById("doc-last-page").style.display = 'none';
+document.getElementById("doc-next-page").style.display = 'none';
+}
+}
+function getPath(element) {
+var path = '/document_detail/';
+var nodeType = element.getAttribute("data-node-type");
+var showType = element.getAttribute("data-show-type");
+if (nodeType === '8' && showType === '2') {
+path = '/knowledge_list/';
+} else if (nodeType === '8' && showType === '3') {
+path = '/video_list/';
+} else if (nodeType === '2') {
+path = '/knowledge_detail/';
+} else if (nodeType === '4') {
+path = '/video_detail/';
+}
+return path;
+}
+</script>
+<!-- footer S -->
+<div data-role-footer="default"></div>
+<!--script src="//www.aliyun.com/resource/website/header_footer/footer?_render_mode=block"></script-->
+<script src="//www.aliyun.com/resource/_assets/tail"></script>
+<script type="text/javascript" src="//g.alicdn.com/??aliyun/dbl-official-ui/1.0.33/scripts/index.js?nonce=NONCE_PLACEHOLDER"></script>
+<script type="text/javascript" src="//g.alicdn.com/aliyun/help-doc/0.0.84/js/newDetail.js"></script>
+<script defer type="text/javascript" src="//static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/static/tree-table/doc-tree-table.js"></script>
+<script defer type="text/javascript" src="//g.alicdn.com/axdata/yunlog/yunlog.js"></script>
+<script defer type="text/javascript" src="//g.alicdn.com/aliyun/help-doc/0.0.84/js/customFeedback.js"></script>
+<!-- footer E -->
+</body>
+<!-- for pcp metric -->
+<script>
+$('document').ready(function(){
+window.ALIYUN_PERF.reportPerfWhenStatic();
+});
+</script>
+</html>
