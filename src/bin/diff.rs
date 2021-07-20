@@ -6,6 +6,7 @@ use visdom::Vis;
 use std::io::Read;
 use resources::{get_old_data, get_new_data};
 
+/// 对比字符串数组
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let old_data = get_old_data()?;
     let new_data = get_new_data()?;
